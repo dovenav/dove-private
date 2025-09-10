@@ -99,6 +99,45 @@ jobs:
   - 项目页（`https://<user>.github.io/<repo>/`）建议设置 `site.base_path: <repo>`。
   - 自定义域名时，建议设置 `site.base_url: https://nav.example.com`，并在仓库 Pages 里配置自定义域。
 
+## 部署到 Cloudflare Workers（可选）
+
+本仓库已内置基于 Wrangler 的 Workers 部署方案：
+
+- 工作流：`dove-private/.github/workflows/deploy-worker.yml`
+- 配置：`dove-private/wrangler.toml`
+
+工作原理与 Pages 相同：在 CI 中 checkout 本仓库与 [dovenav/dove](https://github.com/dovenav/dove)，安装 Rust，复制 `dove.yaml` 后构建到 `dove/dist/`，随后用 Wrangler 将 `dove/dist` 作为静态资源发布到 Workers。
+
+准备工作：
+
+- 在 GitHub 仓库添加 Secrets（Settings → Secrets and variables → Actions）：
+  - `CLOUDFLARE_API_TOKEN`：具备“Edit Workers”权限的 API Token。
+  - `CLOUDFLARE_ACCOUNT_ID`：Cloudflare 账户 ID（Cloudflare 仪表盘可见）。
+- 如需本地直接 `wrangler deploy`，可在 `wrangler.toml` 中填写 `account_id`（默认留空，CI 走 inputs）。
+
+触发方式：
+
+- 对 `main` 分支的 push 会自动部署；也可在 Actions 中手动运行（`workflow_dispatch`）。
+
+访问地址：
+
+- 默认域名形如 `https://<worker-name>.<你的 workers 子域>.workers.dev/`。
+- 若 `dove.yaml` 设置了 `site.base_path: <repo>`，入口页面在 `/<repo>/` 路径下，例如：
+  - `https://<worker-name>.<子域>.workers.dev/<repo>/`。
+  - 若留空 `base_path`，则首页为根路径 `/`（对应 `dove/dist/index.html`）。
+
+自定义域/路由（可选）：
+
+- 在 Cloudflare 控制台 → Workers & Pages → 选择你的 Worker：
+  - 添加 Custom Domain，将你的域名（已托管在 Cloudflare）绑定到该 Worker。
+  - 或添加 Route（如 `example.com/*`）映射到该 Worker。
+- 使用 `site.base_path` 时，自定义域下的访问路径同样需要带上该子路径。
+
+排错提示：
+
+- 404（根路径为空）：常见于设置了 `site.base_path`，直接访问 `/` 不存在，需访问 `/<base_path>/`。
+- 权限错误：确认 `CLOUDFLARE_API_TOKEN` 具备 Workers 相关的编辑权限，且 `CLOUDFLARE_ACCOUNT_ID` 正确。
+
 ## 本地调试
 
 - 预览：在本机克隆 [dovenav/dove](https://github.com/dovenav/dove)，将你的 `dove.yaml` 放到仓库根目录，执行：

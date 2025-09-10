@@ -1,0 +1,58 @@
+name: Deploy static content to Cloudflare Workers
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "workers-deploy"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Private Config
+        uses: actions/checkout@v4
+
+      - name: Checkout Dove
+        uses: actions/checkout@v4
+        with:
+          repository: dovenav/dove
+          path: dove
+          # 可选：固定上游 dove 版本，避免上游变更影响你的构建
+          # ref: v0.1.0
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Copy config file
+        run: cp dove.yaml dove/
+
+      - name: Build
+        run: cd dove && cargo run -- build
+
+      - name: Verify build output exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ls dove/dist/index.html >/dev/null 2>&1; then
+            echo "Found: dove/dist/index.html"
+          elif ls dove/dist/*/index.html >/dev/null 2>&1; then
+            echo "Found: dove/dist/*/index.html (base_path mode)"
+          else
+            echo "index.html not found under dove/dist (consider checking build log and base_path)" >&2
+            exit 1
+          fi
+
+      - name: Publish to Cloudflare Workers (Wrangler)
+        uses: cloudflare/wrangler-action@3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          # 使用仓库根目录的 wrangler.toml
+          command: deploy --config wrangler.toml

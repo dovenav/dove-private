@@ -1,0 +1,12 @@
+name = "dove-static"
+# 如需自定义名称，可修改为你的 Worker 名称（在 Cloudflare 控制台可见）
+compatibility_date = "2024-01-01"
+
+# 推荐在 GitHub Actions 中通过 inputs 传递 accountId（见 workflow），
+# 若希望在本地直接 `wrangler deploy`，可取消注释并填写实际账户 ID：
+# account_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+[assets]
+# 部署静态资源目录（由 build 步骤生成）
+directory = "dove/dist"
+
