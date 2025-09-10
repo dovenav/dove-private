@@ -158,6 +158,111 @@ groups:
           <p>自由协作的百科全书，多语言内容由社区共同维护与校对。</p>
         icon: https://cdn.simpleicons.org/wikipedia?size=64
 
+  # 常用：按场景细分
+  - category: 常用
+    name: 视频/音乐
+    links:
+      - name: 腾讯视频
+        url: https://v.qq.com
+        intro: 长视频平台，影视综艺与体育直播。
+        icon: https://www.google.com/s2/favicons?domain=v.qq.com&sz=64
+      - name: 优酷
+        url: https://www.youku.com/
+        intro: 阿里巴巴旗下长视频平台，剧综动漫等。
+        icon: https://cdn.simpleicons.org/youku?size=64
+      - name: 爱奇艺
+        url: https://www.iqiyi.com/
+        intro: 长视频平台，自制剧综与电影资源。
+        icon: https://cdn.simpleicons.org/iqiyi?size=64
+      - name: 哔哩哔哩
+        url: https://www.bilibili.com/
+        intro: 年轻人视频社区，番剧、直播与 UP 主创作。
+        icon: https://cdn.simpleicons.org/bilibili?size=64
+      - name: 网易云音乐
+        url: https://music.163.com/
+        intro: 音乐流媒体，歌单与评论氛围。
+        icon: https://cdn.simpleicons.org/neteasecloudmusic?size=64
+      - name: QQ音乐
+        url: https://y.qq.com/
+        intro: 腾讯旗下音乐平台，曲库丰富。
+        icon: https://cdn.simpleicons.org/qqmusic?size=64
+      - name: 酷狗音乐
+        url: https://www.kugou.com/
+        intro: 音乐播放与下载平台。
+        icon: https://www.google.com/s2/favicons?domain=www.kugou.com&sz=64
+
+  - category: 常用
+    name: 短视频
+    links:
+      - name: 抖音网页版
+        url: https://www.douyin.com/
+        intro: 短视频与直播平台，推荐信息流。
+        icon: https://www.google.com/s2/favicons?domain=www.douyin.com&sz=64
+      - name: 快手网页版
+        url: https://www.kuaishou.com/
+        intro: 短视频社区与直播平台。
+        icon: https://www.google.com/s2/favicons?domain=www.kuaishou.com&sz=64
+
+  - category: 常用
+    name: 社交/社区
+    links:
+      - name: 微博
+        url: https://www.weibo.com/
+        intro: 中文社交媒体与话题平台。
+        icon: https://cdn.simpleicons.org/sinaweibo?size=64
+      - name: 知乎
+        url: https://www.zhihu.com/explore
+        intro: 问答社区，分享知识、经验与见解。
+        icon: https://cdn.simpleicons.org/zhihu?size=64
+      - name: 豆瓣
+        url: https://www.douban.com/
+        intro: 书影音评分与评论社区。
+        icon: https://cdn.simpleicons.org/douban?size=64
+      - name: 百度贴吧
+        url: https://tieba.baidu.com/
+        intro: 基于兴趣主题的社区论坛。
+        icon: https://cdn.simpleicons.org/baidu?size=64
+      - name: 简书
+        url: https://www.jianshu.com/
+        intro: 写作与阅读社区，发布文章与专题。
+        icon: https://www.google.com/s2/favicons?domain=www.jianshu.com&sz=64
+
+  - category: 常用
+    name: 媒体/电视
+    links:
+      - name: CCTV直播
+        url: https://tv.cctv.com/live/index.shtml
+        intro: 央视多频道在线直播与节目回看。
+        icon: https://www.google.com/s2/favicons?domain=tv.cctv.com&sz=64
+
+  - category: 常用
+    name: 购物/生活
+    links:
+      - name: 淘宝
+        url: https://www.taobao.com/
+        intro: 综合电商平台，海量商品与店铺。
+        icon: https://cdn.simpleicons.org/taobao?size=64
+
+  - category: 常用
+    name: 办公/效率
+    links:
+      - name: 文件传输助手
+        url: https://filehelper.weixin.qq.com/
+        intro: 微信生态内文本与文件跨设备传输。
+        icon: https://cdn.simpleicons.org/wechat?size=64
+      - name: 微信公众平台
+        url: https://mp.weixin.qq.com/
+        intro: 公众号内容发布与运营管理。
+        icon: https://cdn.simpleicons.org/wechat?size=64
+      - name: 企业微信
+        url: https://work.weixin.qq.com/
+        intro: 企业沟通协作与办公。
+        icon: https://cdn.simpleicons.org/wechat?size=64
+      - name: 看云
+        url: https://www.kancloud.cn/invite?code=629a2ef59f83a
+        intro: 在线文档托管与团队协作平台。
+        icon: https://www.google.com/s2/favicons?domain=www.kancloud.cn&sz=64
+
   # 开发分类下的多个二级分组
   - category: 开发
     name: 文档/学习
@@ -251,6 +356,18 @@ groups:
         details: |
           <p>免费公共 CDN，加速分发 npm/GitHub 资源，支持自定义版本与文件路径。</p>
         icon: https://cdn.simpleicons.org/jsdelivr?size=64
+
+  - category: 开发
+    name: 镜像/下载
+    links:
+      - name: 阿里巴巴开源镜像站
+        url: https://developer.aliyun.com/mirror/
+        intro: 常用开源软件镜像与加速下载。
+        icon: https://cdn.simpleicons.org/alibabacloud?size=64
+      - name: 腾讯软件中心
+        url: https://pc.qq.com/category/c0.html 
+        intro: 腾讯官方软件下载与更新。
+        icon: https://www.google.com/s2/favicons?domain=pc.qq.com&sz=64
 
   - category: 学习
     name: 刷题/练习
