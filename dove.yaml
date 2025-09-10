@@ -79,7 +79,7 @@ groups:
             <li>CLI：<code>init</code> 初始化、<code>build</code> 构建、<code>preview</code> 本地预览。</li>
             <li>产物可直接部署到 GitHub Pages、Cloudflare Pages 或 Cloudflare Workers。</li>
           </ul>
-          <p>更多用法与配置项请查看主仓库 README。</p>
+          <p>更多用法与配置项请查看主仓库 <a href="https://github.com/dovenav/dove?tab=readme-ov-file#dove" target="_blank" rel="noopener">README</a>。</p>
         icon: assets/favicon-f.svg
         slug: dove
         risk: low
