@@ -1,6 +1,6 @@
 site:
   # 站点标题（显示在页面标题与页头处）
-  title: 我的导航站
+  title: 我的私有导航站
 
   # 站点描述（可选，显示在页头副标题与 meta description）
   description: 我的导航站，常用站点与工具集合
