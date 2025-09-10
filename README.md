@@ -1,8 +1,8 @@
 # dove-private
 
-基于 dove 的个人（或组织）导航站点私有配置仓库。通过 GitHub Actions 自动构建并发布到 GitHub Pages。
+基于 [dove](https://github.com/dovenav/dove) 的个人（或组织）导航站点私有配置仓库。通过 GitHub Actions 自动构建并发布到 GitHub Pages。
 
-本仓库只存放你的站点配置（`dove.yaml` 等），实际构建时会从 GitHub 拉取 `dovenav/dove` 源码，在 CI 里执行 `cargo run -- build` 产出静态文件并发布。
+本仓库只存放你的站点配置（`dove.yaml` 等），实际构建时会从 GitHub 拉取 [dovenav/dove](https://github.com/dovenav/dove) 源码，在 CI 里执行 `cargo run -- build` 产出静态文件并发布。
 
 ## 实现方式概览
 
@@ -11,7 +11,7 @@
   - `.github/workflows/deploy.yml` GitHub Pages 自动发布工作流。
 - 工作流关键步骤：
   1) Checkout 当前仓库（只含配置）。
-  2) Checkout `dovenav/dove` 到子目录 `dove/`。
+  2) Checkout [dovenav/dove](https://github.com/dovenav/dove) 到子目录 `dove/`。
   3) 将 `dove.yaml` 拷贝到 `dove/` 根目录。
   4) 安装 Rust 工具链，执行 `cargo run -- build` 生成 `dove/dist/`。
   5) 上传 `dove/dist` 为 Pages 工件并发布到 GitHub Pages。
@@ -101,7 +101,7 @@ jobs:
 
 ## 本地调试
 
-- 预览：在本机克隆 `dovenav/dove`，将你的 `dove.yaml` 放到仓库根目录，执行：
+- 预览：在本机克隆 [dovenav/dove](https://github.com/dovenav/dove)，将你的 `dove.yaml` 放到仓库根目录，执行：
   - `cargo run -- build`
   - `cargo run -- preview --build-first`（默认 `127.0.0.1:8787`）
 - 构建结果位于 `dist/` 或 `dist/<base_path>/`（如果设置了 `base_path`）。
@@ -128,4 +128,4 @@ jobs:
 
 ---
 
-当你需要查看更详细的配置字段与命令参数，请前往 `dovenav/dove` 主仓库的 README（本仓库仅聚焦 Pages 发布流程）。
+当你需要查看更详细的配置字段与命令参数，请前往 [dovenav/dove](https://github.com/dovenav/dove) 主仓库的 README（本仓库仅聚焦 Pages 发布流程）。
