@@ -29,9 +29,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Private Config
         uses: actions/checkout@v4
-      - name: Checkout
+      - name: Checkout Dove
         uses: actions/checkout@v4
         with:
           repository: dovenav/dove
@@ -48,7 +48,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: 'dove/.dist'
+          path: 'dove/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
