@@ -12,7 +12,7 @@ site:
   theme_dir: themes/default
 
   # 站点根路径（相对子路径）。默认留空，输出到 dist/ 根目录
-  base_path: "privatedove"
+  base_path: ""
 
   # 站点地图默认设置
   sitemap:
