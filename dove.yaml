@@ -108,7 +108,7 @@ groups:
         intro: 微软搜索
         details: |
           <p>微软旗下搜索引擎，适合日常检索、图片与视频搜索。</p>
-        icon: https://cdn.simpleicons.org/bing?size=64
+        icon: https://www.google.com/s2/favicons?domain=www.bing.com&sz=64
       # ----------------
       - name: DuckDuckGo
         url: https://duckduckgo.com
@@ -169,11 +169,11 @@ groups:
       - name: 优酷
         url: https://www.youku.com/
         intro: 阿里巴巴旗下长视频平台，剧综动漫等。
-        icon: https://cdn.simpleicons.org/youku?size=64
+        icon: https://www.google.com/s2/favicons?domain=www.youku.com&sz=64
       - name: 爱奇艺
         url: https://www.iqiyi.com/
         intro: 长视频平台，自制剧综与电影资源。
-        icon: https://cdn.simpleicons.org/iqiyi?size=64
+        icon: https://www.google.com/s2/favicons?domain=www.iqiyi.com&sz=64
       - name: 哔哩哔哩
         url: https://www.bilibili.com/
         intro: 年轻人视频社区，番剧、直播与 UP 主创作。
@@ -185,7 +185,7 @@ groups:
       - name: QQ音乐
         url: https://y.qq.com/
         intro: 腾讯旗下音乐平台，曲库丰富。
-        icon: https://cdn.simpleicons.org/qqmusic?size=64
+        icon: https://www.google.com/s2/favicons?domain=y.qq.com&sz=64
       - name: 酷狗音乐
         url: https://www.kugou.com/
         intro: 音乐播放与下载平台。
@@ -317,7 +317,7 @@ groups:
         intro: Rust 包仓库
         details: |
           <p>Rust 生态的官方包仓库，用于发布、检索与依赖管理。</p>
-        icon: https://cdn.simpleicons.org/cratesdotio?size=64
+        icon: https://www.google.com/s2/favicons?domain=crates.io&sz=64
 
   - category: 开发
     name: 工具
@@ -327,7 +327,7 @@ groups:
         intro: 正则测试
         details: |
           <p>在线正则表达式测试与解释器，支持 PCRE、ECMAScript、Python 等多种方言。</p>
-        icon: https://cdn.simpleicons.org/regex101?size=64
+        icon: https://www.google.com/s2/favicons?domain=regex101.com&sz=64
       # ----------------
       - name: JSON Formatter
         url: https://jsonformatter.org
@@ -341,7 +341,7 @@ groups:
         intro: 图片压缩
         details: |
           <p>智能压缩 PNG/JPG/WebP，显著降低体积同时尽量保持画质。</p>
-        icon: https://cdn.simpleicons.org/tinypng?size=64
+        icon: https://www.google.com/s2/favicons?domain=tinypng.com&sz=64
       # ----------------
       - name: CodeSandbox
         url: https://codesandbox.io
