@@ -38,6 +38,11 @@ jobs:
           path: dove
           # 可选：固定上游 dove 版本，避免上游变更影响你的构建
           # ref: v0.1.0
+      
+      - name: Compute version
+        id: ver
+        run: echo "version=$(cd dove && git describe --tags --always --dirty --long)" >> $GITHUB_OUTPUT
+
       # 安装 Rust 工具链，便于执行 cargo 构建
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@stable
@@ -47,6 +52,8 @@ jobs:
       # 执行构建
       - name: Build
         run: cd dove && cargo run -- build 
+        env:
+          DOVE_BUILD_VERSION: ${{ steps.ver.outputs.version }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
