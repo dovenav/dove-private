@@ -36,6 +36,11 @@ jobs:
         with:
           repository: dovenav/dove
           path: dove
+          # 可选：固定上游 dove 版本，避免上游变更影响你的构建
+          # ref: v0.1.0
+      # 安装 Rust 工具链，便于执行 cargo 构建
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
       # 拷贝配置文件到 dove 目录
       - name: Copy config file
         run: cp dove.yaml dove/
