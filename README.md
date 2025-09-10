@@ -4,6 +4,25 @@
 
 本仓库只存放你的站点配置（`dove.yaml` 等），实际构建时会从 GitHub 拉取 [dovenav/dove](https://github.com/dovenav/dove) 源码，在 CI 里执行 `cargo run -- build` 产出静态文件并发布。
 
+## 快速开始
+
+- Fork 或新建一个仓库，将你的 `dove.yaml` 放在仓库根目录。
+- 选择部署方式：
+  - GitHub Pages：在 Settings → Pages 中将 Source 设为 “GitHub Actions”。
+  - Cloudflare Workers：在仓库设置添加 Secrets `CLOUDFLARE_API_TOKEN`、`CLOUDFLARE_ACCOUNT_ID`。
+- 推送到 `main`，工作流会自动构建并发布。
+
+建议：若为 Project Pages（`https://<user>.github.io/<repo>/`），在 `dove.yaml` 设置 `site.base_path: <repo>`；User/Org Pages 通常无需设置。
+
+## 工作流总览
+
+- GitHub Pages 发布：`.github/workflows/deploy.yml`
+  - 触发：`push` 到 `main`、手动 `workflow_dispatch`
+  - 产物：`dove/dist` → GitHub Pages
+- Cloudflare Workers 发布：`.github/workflows/deploy-worker.yml`
+  - 触发：`push` 到 `main`、手动 `workflow_dispatch`
+  - 产物：`dove/dist` → 通过 Wrangler 发布为静态资源 Worker（配置见 `wrangler.toml`）
+
 ## 实现方式概览
 
 - 仓库内容：
@@ -65,6 +84,18 @@ jobs:
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@stable
 
+      # 缓存 Cargo 依赖与构建产物，加速后续构建
+      - name: Cache cargo registry and build
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            dove/target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('dove/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
       # 拷贝配置文件到 dove 目录
       - name: Copy config file
         run: cp dove.yaml dove/
@@ -98,6 +129,7 @@ jobs:
 - SEO 路径与域名：
   - 项目页（`https://<user>.github.io/<repo>/`）建议设置 `site.base_path: <repo>`。
   - 自定义域名时，建议设置 `site.base_url: https://nav.example.com`，并在仓库 Pages 里配置自定义域。
+- 构建加速：已配置 `actions/cache` 缓存 Cargo 依赖与 `dove/target`，以加速二次构建。
 
 ## 部署到 Cloudflare Workers（可选）
 
@@ -114,6 +146,8 @@ jobs:
   - `CLOUDFLARE_API_TOKEN`：具备“Edit Workers”权限的 API Token。
   - `CLOUDFLARE_ACCOUNT_ID`：Cloudflare 账户 ID（Cloudflare 仪表盘可见）。
 - 如需本地直接 `wrangler deploy`，可在 `wrangler.toml` 中填写 `account_id`（默认留空，CI 走 inputs）。
+
+Wrangler 版本：工作流使用 `cloudflare/wrangler-action@v3`。
 
 触发方式：
 
@@ -137,6 +171,11 @@ jobs:
 
 - 404（根路径为空）：常见于设置了 `site.base_path`，直接访问 `/` 不存在，需访问 `/<base_path>/`。
 - 权限错误：确认 `CLOUDFLARE_API_TOKEN` 具备 Workers 相关的编辑权限，且 `CLOUDFLARE_ACCOUNT_ID` 正确。
+
+## 选择 Pages 还是 Workers？
+
+- GitHub Pages：简单、免费，适合托管静态站点（支持自定义域）；无需额外密钥。
+- Cloudflare Workers：支持全局加速与路由/自定义域的灵活性；需配置 API Token 与 Account ID。
 
 ## 本地调试
 

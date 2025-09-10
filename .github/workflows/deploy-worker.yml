@@ -29,6 +29,17 @@ jobs:
 
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@stable
+      # 缓存 Cargo 依赖与构建产物，加速后续构建
+      - name: Cache cargo registry and build
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            dove/target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('dove/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
 
       - name: Copy config file
         run: cp dove.yaml dove/
