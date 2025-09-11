@@ -1,9 +1,9 @@
 site:
   # 站点标题（显示在页面标题与页头处）
-  title: 我的私有导航站
+  title: Dove私有导航站 - 常用站点与工具集合
 
   # 站点描述（可选，显示在页头副标题与 meta description）
-  description: 我的导航站，常用站点与工具集合
+  description: 基于Rust开发的Dove静态导航站点，汇集个人常用网站、工具与资源，提供便捷的网络访问入口
 
   # 页面配色方案（auto|light|dark）
   color_scheme: auto
