@@ -38,7 +38,7 @@ site:
     delay_seconds: 3            # 自动跳转倒计时（秒）；0 表示不自动跳转
     default_risk: low           # 默认风险等级（low|medium|high）
     utm:                        # 站点级 UTM 参数（可选）
-      source: nav
+      source: dove
       medium: referral
       campaign: homepage
       term: ""
@@ -49,6 +49,8 @@ groups:
   - category: 置顶
     name: 项目
     links:
+      - name: 友链申请
+        url: https://github.com/dovenav/dove-private/blob/main/dove.yaml
       - name: dove-private
         url: https://github.com/dovenav/dove-private
         intro: 基于 dove 的私有配置与 Pages/Workers 部署模板
@@ -62,7 +64,7 @@ groups:
           </ul>
           <p>仓库内包含完整的工作流、缓存加速、版本固定建议、<code>base_path</code> 与自定义域名配置说明，便于你 fork 后快速搭建自己的导航站。</p>
           <p>详细说明见仓库 README；也可前往 <a href="https://github.com/dovenav/dove" target="_blank" rel="noopener">dove</a> 主仓库了解配置字段与主题机制。</p>
-        icon: https://cdn.simpleicons.org/github?size=64
+        icon: assets/favicon-f.svg
         slug: dove-private
         risk: low
       - name: dove
