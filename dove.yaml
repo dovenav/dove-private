@@ -51,6 +51,8 @@ groups:
     links:
       - name: 友链申请
         url: https://github.com/dovenav/dove-private/blob/main/dove.yaml
+        intro: 用 Rust 构建的静态导航站点生成器
+        icon: assets/favicon-f.svg
       - name: dove-private
         url: https://github.com/dovenav/dove-private
         intro: 基于 dove 的私有配置与 Pages/Workers 部署模板
