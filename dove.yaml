@@ -296,6 +296,13 @@ groups:
         details: |
           <p>计算机基础与数据结构/算法教程，附题解与面试经验分享。</p>
         icon: https://cdn.simpleicons.org/geeksforgeeks?size=64
+      # ----------------
+      - name: Notion
+        url: https://www.notion.so/
+        intro: AI工作空间
+        details: |
+          <p>一个AI工作空间，团队可以在这里找到每个答案，自动化繁忙工作，并完成项目。</p>
+        icon: https://cdn.simpleicons.org/notion?size=64
 
   - category: 开发
     name: 平台/仓库
