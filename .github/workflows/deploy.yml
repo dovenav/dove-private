@@ -62,7 +62,7 @@ jobs:
         run: cp dove.yaml dove/
       # 执行构建
       - name: Build
-        run: cd dove && cargo run -- build 
+        run: cd dove && cargo run --features remote  -- build 
         env:
           DOVE_BUILD_VERSION: ${{ steps.ver.outputs.version }}
       - name: Setup Pages
