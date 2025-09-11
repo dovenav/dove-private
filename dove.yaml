@@ -49,26 +49,6 @@ groups:
   - category: 置顶
     name: 项目
     links:
-      - name: 友链申请
-        url: https://github.com/dovenav/dove-private/blob/main/dove.yaml
-        intro: 用 Rust 构建的静态导航站点生成器
-        icon: assets/favicon-f.svg
-      - name: dove-private
-        url: https://github.com/dovenav/dove-private
-        intro: 基于 dove 的私有配置与 Pages/Workers 部署模板
-        details: |
-          <p><strong>dove-private</strong> 是一个仅包含站点配置与 CI 的示例/模板仓库，配合
-          <a href="https://github.com/dovenav/dove" target="_blank" rel="noopener">dove</a>
-          生成静态页面，并通过以下两种方式自动发布：</p>
-          <ul>
-            <li><strong>GitHub Pages</strong>：使用 Actions 自动构建并发布到 Pages。</li>
-            <li><strong>Cloudflare Workers</strong>：使用 Wrangler 将 <code>dove/dist</code> 作为静态资产发布。</li>
-          </ul>
-          <p>仓库内包含完整的工作流、缓存加速、版本固定建议、<code>base_path</code> 与自定义域名配置说明，便于你 fork 后快速搭建自己的导航站。</p>
-          <p>详细说明见仓库 README；也可前往 <a href="https://github.com/dovenav/dove" target="_blank" rel="noopener">dove</a> 主仓库了解配置字段与主题机制。</p>
-        icon: assets/favicon-f.svg
-        slug: dove-private
-        risk: low
       - name: dove
         url: https://github.com/dovenav/dove
         intro: 用 Rust 构建的静态导航站点生成器
@@ -87,6 +67,27 @@ groups:
         icon: assets/favicon-f.svg
         slug: dove
         risk: low
+      - name: dove-private
+        url: https://github.com/dovenav/dove-private
+        intro: 基于 dove 的私有配置与 Pages/Workers 部署模板
+        details: |
+          <p><strong>dove-private</strong> 是一个仅包含站点配置与 CI 的示例/模板仓库，配合
+          <a href="https://github.com/dovenav/dove" target="_blank" rel="noopener">dove</a>
+          生成静态页面，并通过以下两种方式自动发布：</p>
+          <ul>
+            <li><strong>GitHub Pages</strong>：使用 Actions 自动构建并发布到 Pages。</li>
+            <li><strong>Cloudflare Workers</strong>：使用 Wrangler 将 <code>dove/dist</code> 作为静态资产发布。</li>
+          </ul>
+          <p>仓库内包含完整的工作流、缓存加速、版本固定建议、<code>base_path</code> 与自定义域名配置说明，便于你 fork 后快速搭建自己的导航站。</p>
+          <p>详细说明见仓库 README；也可前往 <a href="https://github.com/dovenav/dove" target="_blank" rel="noopener">dove</a> 主仓库了解配置字段与主题机制。</p>
+        icon: assets/favicon-f.svg
+        slug: dove-private
+        risk: low
+      - name: 友链申请
+        url: https://github.com/dovenav/dove-private/blob/main/dove.yaml
+        intro: 用 Rust 构建的静态导航站点生成器
+        icon: assets/favicon-f.svg
+      
   # 常用分类下的多个二级分组
   - category: 常用
     name: 搜索
