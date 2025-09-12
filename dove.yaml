@@ -96,6 +96,7 @@ groups:
   # 常用分类下的多个二级分组
   - category: 常用
     name: 搜索
+    display: text
     links:
       - name: Google
         url: https://www.google.com
@@ -136,6 +137,7 @@ groups:
 
   - category: 常用
     name: 媒体/社交
+    display: list
     links:
       - name: YouTube
         url: https://www.youtube.com
@@ -171,6 +173,7 @@ groups:
   # 常用：按场景细分
   - category: 常用
     name: 视频/音乐
+    display: compact
     links:
       - name: 腾讯视频
         url: https://v.qq.com
