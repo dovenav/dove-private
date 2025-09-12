@@ -201,6 +201,11 @@ groups:
         intro: 音乐播放与下载平台。
         icon: https://www.google.com/s2/favicons?domain=www.kugou.com&sz=128
 
+      - name: CCTV直播
+        url: https://tv.cctv.com/live/index.shtml
+        intro: 央视多频道在线直播与节目回看。
+        icon: https://www.google.com/s2/favicons?domain=tv.cctv.com&sz=128
+
   - category: 常用
     name: 短视频
     links:
@@ -236,14 +241,7 @@ groups:
         url: https://www.jianshu.com/
         intro: 写作与阅读社区，发布文章与专题。
         icon: https://www.google.com/s2/favicons?domain=www.jianshu.com&sz=128
-
-  - category: 常用
-    name: 媒体/电视
-    links:
-      - name: CCTV直播
-        url: https://tv.cctv.com/live/index.shtml
-        intro: 央视多频道在线直播与节目回看。
-        icon: https://www.google.com/s2/favicons?domain=tv.cctv.com&sz=128
+ 
 
   - category: 常用
     name: 购物/生活
