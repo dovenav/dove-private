@@ -184,6 +184,35 @@ Wrangler 版本：工作流使用 `cloudflare/wrangler-action@v3`。
   - `cargo run -- preview --build-first`（默认 `127.0.0.1:8787`）
 - 构建结果位于 `dist/` 或 `dist/<base_path>/`（如果设置了 `base_path`）。
 
+## 配置说明（dove.yaml）
+
+顶层通常包括：
+
+- `site`：站点与页面行为
+  - `title`/`description`：标题与描述
+  - `color_scheme`：`auto|light|dark`
+  - `theme_dir`：主题目录（包含 `templates/` 与 `assets/`）
+  - `base_path`：输出到 `dist/<base_path>/` 并作为站点根路径
+  - `layout`：`default|ntp`（两种首页布局）
+  - `search_engines`/`default_engine`：搜索引擎切换
+  - `sitemap`：`default_changefreq`、`default_priority`、`lastmod`
+  - `redirect`（外网详情/中间页）：`delay_seconds`、`default_risk`、`utm`
+  - 可选统计：`baidu_tongji_id`、`google_analytics_id`
+- `groups`：分组与链接
+  - `category`：一级分类（侧边栏）
+  - `name`：分组标题（内容区）
+  - `display`：分组显示风格 `standard|compact|list|text`
+  - `links[]`：`name`、`url`、`icon`、`intro`、`details`、（可选）`intranet` 等
+
+提示：
+
+- 内/外网两套页面：外网页面使用 `url`，内网页面优先使用 `intranet`（没有则回退 `url`）。
+- 中间页（外网详情）默认开启，可用参数或环境变量禁用：
+  - `cargo run -- build --generate-intermediate-page false`
+  - `DOVE_GENERATE_INTERMEDIATE_PAGE=false cargo run -- build`
+- 配置拆分：支持在主配置中通过 `include` 引用本地片段（支持 glob），并按顺序合并。
+- 远程配置：支持从 URL/Gist 加载（需 `--features remote`），详见 dove 主仓库 README。
+
 ## 常见问题（FAQ）
 
 - 构建时报 `cargo: command not found`：
