@@ -92,6 +92,10 @@ groups:
         url: https://github.com/dovenav/dove-private/blob/main/dove.yaml
         intro: 用 Rust 构建的静态导航站点生成器
         icon: assets/favicon-f.svg
+        details: |
+          <p>你可以通过编辑此 YAML 配置文件来申请添加你的网站链接。</p>
+          <p>请按照现有格式添加你的网站信息，包括名称、URL、简介、图标等。</p>
+          <p>提交 Pull Request 后，我们会审核并合并你的更改。</p>
       
   # 常用分类下的多个二级分组
   - category: 常用
@@ -179,35 +183,67 @@ groups:
         url: https://v.qq.com
         intro: 长视频平台，影视综艺与体育直播。
         icon: https://www.google.com/s2/favicons?domain=v.qq.com&sz=128
+        details: |
+          <p>腾讯视频是一个提供丰富影视内容的在线视频平台。</p>
+          <p>用户可以观看最新的电影、电视剧、综艺节目以及体育赛事直播。</p>
+          <p>支持多种设备访问，包括网页、手机应用和智能电视。</p>
       - name: 优酷
         url: https://www.youku.com/
         intro: 阿里巴巴旗下长视频平台，剧综动漫等。
         icon: https://www.google.com/s2/favicons?domain=www.youku.com&sz=128
+        details: |
+          <p>优酷是阿里巴巴集团旗下的视频分享网站。</p>
+          <p>提供丰富的视频内容，包括独家剧集、电影、动漫、纪录片等。</p>
+          <p>支持高清播放和多屏互动体验。</p>
       - name: 爱奇艺
         url: https://www.iqiyi.com/
         intro: 长视频平台，自制剧综与电影资源。
         icon: https://www.google.com/s2/favicons?domain=www.iqiyi.com&sz=128
+        details: |
+          <p>爱奇艺是中国领先的在线视频平台之一。</p>
+          <p>提供大量独家自制内容，如热门电视剧、综艺节目和动漫作品。</p>
+          <p>支持多种会员服务和个性化推荐功能。</p>
       - name: 哔哩哔哩
         url: https://www.bilibili.com/
         intro: 年轻人视频社区，番剧、直播与 UP 主创作。
         icon: https://cdn.simpleicons.org/bilibili?size=128
+        details: |
+          <p>哔哩哔哩（B站）是中国年轻人喜爱的视频社区。</p>
+          <p>提供丰富的弹幕视频内容，涵盖动画、游戏、科技、生活等多个领域。</p>
+          <p>支持UP主创作和观众互动，形成了独特的文化氛围。</p>
       - name: 网易云音乐
         url: https://music.163.com/
         intro: 音乐流媒体，歌单与评论氛围。
         icon: https://cdn.simpleicons.org/neteasecloudmusic?size=128
+        details: |
+          <p>网易云音乐是一款专注于发现和分享的音乐产品。</p>
+          <p>提供海量正版音乐资源，支持个性化推荐和高质量音质。</p>
+          <p>用户可以创建和分享歌单，并参与音乐评论区的互动。</p>
       - name: QQ音乐
         url: https://y.qq.com/
         intro: 腾讯旗下音乐平台，曲库丰富。
         icon: https://www.google.com/s2/favicons?domain=y.qq.com&sz=128
+        details: |
+          <p>QQ音乐是腾讯公司推出的网络音乐平台。</p>
+          <p>拥有庞大的曲库资源，涵盖流行、古典、影视等多种类型。</p>
+          <p>支持无损音质播放和跨设备同步收藏。</p>
       - name: 酷狗音乐
         url: https://www.kugou.com/
         intro: 音乐播放与下载平台。
         icon: https://www.google.com/s2/favicons?domain=www.kugou.com&sz=128
+        details: |
+          <p>酷狗音乐是一款集音乐播放、下载和分享于一体的音乐软件。</p>
+          <p>提供丰富的正版音乐资源，支持歌词显示和音效调节。</p>
+          <p>用户可以在线听歌、下载歌曲到本地，并与其他用户交流。</p>
 
       - name: CCTV直播
         url: https://tv.cctv.com/live/index.shtml
         intro: 央视多频道在线直播与节目回看。
         icon: https://www.google.com/s2/favicons?domain=tv.cctv.com&sz=128
+        details: |
+          <p>CCTV直播提供中央电视台多个频道的实时在线观看服务。</p>
+          <p>用户可以收看新闻、财经、体育、综艺等各类电视节目。</p>
+          <p>支持节目回看功能，方便错过直播的用户随时观看。</p>
 
   - category: 常用
     name: 短视频
@@ -216,10 +252,18 @@ groups:
         url: https://www.douyin.com/
         intro: 短视频与直播平台，推荐信息流。
         icon: https://www.google.com/s2/favicons?domain=www.douyin.com&sz=128
+        details: |
+          <p>抖音网页版是字节跳动推出的短视频社交平台。</p>
+          <p>用户可以浏览、点赞、评论和分享各种创意短视频。</p>
+          <p>通过智能算法推荐个性化内容，支持直播互动功能。</p>
       - name: 快手网页版
         url: https://www.kuaishou.com/
         intro: 短视频社区与直播平台。
         icon: https://www.google.com/s2/favicons?domain=www.kuaishou.com&sz=128
+        details: |
+          <p>快手网页版是一个记录和分享生活的短视频社区。</p>
+          <p>提供丰富多样的短视频内容，涵盖搞笑、美食、旅行等领域。</p>
+          <p>支持创作者上传作品并与粉丝互动，打造个人影响力。</p>
 
   - category: 常用
     name: 社交/社区
@@ -228,22 +272,42 @@ groups:
         url: https://www.weibo.com/
         intro: 中文社交媒体与话题平台。
         icon: https://cdn.simpleicons.org/sinaweibo?size=128
+        details: |
+          <p>微博是一个基于用户关系的信息分享、传播以及获取的平台。</p>
+          <p>用户可以发布140字（或更多）的短消息，实现即时分享。</p>
+          <p>支持关注明星、大V和好友，参与热门话题讨论。</p>
       - name: 知乎
         url: https://www.zhihu.com/explore
         intro: 问答社区，分享知识、经验与见解。
         icon: https://cdn.simpleicons.org/zhihu?size=128
+        details: |
+          <p>知乎是一个真实网络问答社区，连接各行各业的用户。</p>
+          <p>用户可以提出问题、分享见解，获得有深度的解答。</p>
+          <p>通过高质量内容创作与专业讨论，构建可信的知识分享平台。</p>
       - name: 豆瓣
         url: https://www.douban.com/
         intro: 书影音评分与评论社区。
         icon: https://cdn.simpleicons.org/douban?size=128
+        details: |
+          <p>豆瓣是一个提供书影音评分与评论的文化社区。</p>
+          <p>用户可以记录和分享自己的观影、读书和听音乐体验。</p>
+          <p>平台聚集了大量文艺爱好者，形成了独特的品味评价体系。</p>
       - name: 百度贴吧
         url: https://tieba.baidu.com/
         intro: 基于兴趣主题的社区论坛。
         icon: https://cdn.simpleicons.org/baidu?size=128
+        details: |
+          <p>百度贴吧是全球最大的中文兴趣社区和话题讨论平台。</p>
+          <p>用户可以根据兴趣爱好创建或加入不同的贴吧进行交流。</p>
+          <p>涵盖娱乐、游戏、学习、生活等各个领域的主题讨论。</p>
       - name: 简书
         url: https://www.jianshu.com/
         intro: 写作与阅读社区，发布文章与专题。
         icon: https://www.google.com/s2/favicons?domain=www.jianshu.com&sz=128
+        details: |
+          <p>简书是一个优质创作社区，鼓励作者创作和分享高质量内容。</p>
+          <p>支持图文编辑、专题收录和读者互动，提升写作体验。</p>
+          <p>通过专题运营和推荐机制，帮助创作者获得关注与成长。</p>
  
 
   - category: 常用
@@ -253,6 +317,10 @@ groups:
         url: https://www.taobao.com/
         intro: 综合电商平台，海量商品与店铺。
         icon: https://cdn.simpleicons.org/taobao?size=128
+        details: |
+          <p>淘宝网是中国深受欢迎的网购零售平台。</p>
+          <p>拥有丰富的商品种类和活跃的卖家群体，提供便捷的购物体验。</p>
+          <p>支持支付宝担保交易，保障买卖双方权益。</p>
 
   - category: 常用
     name: 办公/效率
@@ -261,10 +329,18 @@ groups:
         url: https://filehelper.weixin.qq.com/
         intro: 微信生态内文本与文件跨设备传输。
         icon: https://cdn.simpleicons.org/wechat?size=128
+        details: |
+          <p>文件传输助手是微信官方提供的跨设备文件传输工具。</p>
+          <p>用户可以在手机、电脑等不同设备间快速发送文件和文本。</p>
+          <p>无需添加好友即可实现便捷的数据同步与备份。</p>
       - name: 微信公众平台
         url: https://mp.weixin.qq.com/
         intro: 公众号内容发布与运营管理。
         icon: https://cdn.simpleicons.org/wechat?size=128
+        details: |
+          <p>微信公众平台是腾讯公司为微信用户提供的内容创作与服务平台。</p>
+          <p>支持个人和企业开设公众号，发布图文、音频和视频内容。</p>
+          <p>提供数据分析、粉丝管理和消息互动等功能，助力品牌传播。</p>
       - name: 企业微信
         url: https://work.weixin.qq.com/
         intro: 企业沟通协作与办公。
