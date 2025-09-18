@@ -450,6 +450,13 @@ groups:
         details: |
           <p>免费公共 CDN，加速分发 npm/GitHub 资源，支持自定义版本与文件路径。</p>
         icon: https://cdn.simpleicons.org/jsdelivr?size=128
+      # ----------------
+      - name: OGP
+        url: https://ogp.me/
+        intro: 开放图协议
+        details: |
+          <p>开放图协议（OGP）用于在社交媒体上更好地分享网页内容。</p>
+        icon: https://ogp.me/logo.png
 
   - category: 开发
     name: 镜像/下载
