@@ -173,6 +173,20 @@ groups:
         details: |
           <p>自由协作的百科全书，多语言内容由社区共同维护与校对。</p>
         icon: https://cdn.simpleicons.org/wikipedia?size=128
+      # ----------------
+      - name: wikiHow
+        url: https://zh.wikihow.com/%E9%A6%96%E9%A1%B5
+        intro: 万事指南
+        details: |
+          <p>wikiHow汇聚各个领域值得信赖的研究与专业知识。自2005年以来，已帮助数十亿人学习如何解决大大小小的问题。</p>
+          <p>网站特点：</p>
+          <ul>
+            <li>专家共同创作的实用指南</li>
+            <li>易于理解的详细说明</li>
+            <li>涵盖生活、工作、学习各方面的技巧</li>
+            <li>权威可靠的内容来源</li>
+          </ul>
+        icon: https://zh.wikihow.com/favicon.ico
 
   # 常用：按场景细分
   - category: 常用
