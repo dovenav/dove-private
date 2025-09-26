@@ -422,6 +422,26 @@ groups:
         details: |
           <p>在线正则表达式测试与解释器，支持 PCRE、ECMAScript、Python 等多种方言。</p>
         icon: https://www.google.com/s2/favicons?domain=regex101.com&sz=128
+      - name: Codelf
+        url: https://github.com/unbug/codelf
+        icon: https://unbug.github.io/codelf/images/codelf_logo.f4ae25bd.png
+        intro: 变量命名工具，帮助开发者查找变量名，通过搜索GitHub等开源平台源码提供符合驼峰命名法的命名建议，支持中文查询，并提供Atom、Sublime插件和Chrome应用
+        details: |
+          <p>Codelf是一个变量命名工具，它通过搜索GitHub、GitLab、Bitbucket等开源平台的源代码，为开发者提供符合驼峰命名法的变量命名建议。</p>
+          <p>主要功能包括：</p>
+          <ul>
+            <li><strong>多平台支持</strong>：支持GitHub、GitLab、Bitbucket多个代码托管平台</li>
+            <li><strong>中文查询支持</strong>：可以直接使用中文查询相关的变量命名</li>
+            <li><strong>IDE插件</strong>：提供Atom、Sublime Text等编辑器的插件</li>
+            <li><strong>浏览器扩展</strong>：提供Chrome浏览器扩展，方便在浏览器中使用</li>
+            <li><strong>API接口</strong>：提供API接口，方便集成到其他工具中</li>
+          </ul>
+          <p>Codelf可以帮助开发者：</p>
+          <ul>
+            <li>快速找到合适的变量命名</li>
+            <li>提高代码的可读性和一致性</li>
+            <li>减少命名时的思考时间</li>
+          </ul>
       # ----------------
       - name: JSON Formatter
         url: https://jsonformatter.org
