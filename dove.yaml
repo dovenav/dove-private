@@ -457,6 +457,14 @@ groups:
         details: |
           <p>开放图协议（OGP）用于在社交媒体上更好地分享网页内容。</p>
         icon: https://ogp.me/logo.png
+      # ----------------
+      - name: Snipaste
+        url: https://www.snipaste.com/
+        intro: 截图与贴图工具
+        details: |
+          <p>简单但强大的截图工具，允许将截图固定回屏幕上。支持自动检测UI元素、像素级控制、颜色拾取器等功能。</p>
+          <p>适合程序员、设计师或长时间在电脑前工作的用户提高工作效率。</p>
+        icon:  https://www.snipaste.com/img/logo.svg
 
   - category: 开发
     name: 镜像/下载
