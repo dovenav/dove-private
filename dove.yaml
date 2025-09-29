@@ -75,7 +75,6 @@ groups:
       - name: dove-private
         url: https://github.com/dovenav/dove-private
         intro: 基于 dove 的私有配置与 Pages/Workers 部署模板
-        intermediate_page: false
         details: |
           <p><strong>dove-private</strong> 是一个仅包含站点配置与 CI 的示例/模板仓库，配合
           <a href="https://github.com/dovenav/dove" target="_blank" rel="noopener">dove</a>
@@ -94,6 +93,7 @@ groups:
         intro: 用 Rust 构建的静态导航站点生成器
         icon: assets/favicon-f.svg
         slug: dove-private-friends
+        intermediate_page: false
         details: |
           <p>你可以通过编辑此 YAML 配置文件来申请添加你的网站链接。</p>
           <p>请按照现有格式添加你的网站信息，包括名称、URL、简介、图标等。</p>
