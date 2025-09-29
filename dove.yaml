@@ -75,6 +75,7 @@ groups:
       - name: dove-private
         url: https://github.com/dovenav/dove-private
         intro: 基于 dove 的私有配置与 Pages/Workers 部署模板
+        intermediate_page: false
         details: |
           <p><strong>dove-private</strong> 是一个仅包含站点配置与 CI 的示例/模板仓库，配合
           <a href="https://github.com/dovenav/dove" target="_blank" rel="noopener">dove</a>
