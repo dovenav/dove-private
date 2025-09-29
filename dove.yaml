@@ -92,6 +92,7 @@ groups:
         url: https://github.com/dovenav/dove-private/blob/main/dove.yaml
         intro: 用 Rust 构建的静态导航站点生成器
         icon: assets/favicon-f.svg
+        slug: dove-private-friends
         details: |
           <p>你可以通过编辑此 YAML 配置文件来申请添加你的网站链接。</p>
           <p>请按照现有格式添加你的网站信息，包括名称、URL、简介、图标等。</p>
@@ -121,11 +122,13 @@ groups:
       - name: Bing
         url: https://www.bing.com
         intro: 微软搜索
+        slug: bing
         details: |
           <p>微软旗下搜索引擎，适合日常检索、图片与视频搜索。</p>
         icon: https://www.google.com/s2/favicons?domain=www.bing.com&sz=128
       # ----------------
       - name: DuckDuckGo
+        slug: duckduckgo
         url: https://duckduckgo.com
         intro: 注重隐私的搜索
         details: |
@@ -133,6 +136,7 @@ groups:
         icon: https://cdn.simpleicons.org/duckduckgo?size=128
       # ----------------
       - name: 百度
+        slug: baidu
         url: https://www.baidu.com
         intro: 国内搜索
         details: |
@@ -146,11 +150,13 @@ groups:
       - name: YouTube
         url: https://www.youtube.com
         intro: 视频平台
+        slug: youtube
         details: |
           <p>全球最大的视频平台，支持频道订阅、播放列表与直播功能。</p>
         icon: https://cdn.simpleicons.org/youtube?size=128
       # ----------------
       - name: Twitter (X)
+        slug: twitter
         url: https://twitter.com
         intro: 社交网络
         details: |
@@ -158,6 +164,7 @@ groups:
         icon: https://cdn.simpleicons.org/x?size=128
       # ----------------
       - name: Reddit
+        slug: reddit
         url: https://www.reddit.com
         intro: 社区讨论
         details: |
@@ -169,7 +176,8 @@ groups:
     links:
       - name: Wikipedia
         url: https://www.wikipedia.org
-        intro: 自由百科
+        intro: 自由百科全书
+        slug: wikipedia
         details: |
           <p>自由协作的百科全书，多语言内容由社区共同维护与校对。</p>
         icon: https://cdn.simpleicons.org/wikipedia?size=128
@@ -177,6 +185,7 @@ groups:
       - name: wikiHow
         url: https://zh.wikihow.com/%E9%A6%96%E9%A1%B5
         intro: 万事指南
+        slug: wikihow 
         details: |
           <p>wikiHow汇聚各个领域值得信赖的研究与专业知识。自2005年以来，已帮助数十亿人学习如何解决大大小小的问题。</p>
           <p>网站特点：</p>
@@ -195,6 +204,7 @@ groups:
     links:
       - name: 腾讯视频
         url: https://v.qq.com
+        slug: v.qq.com
         intro: 长视频平台，影视综艺与体育直播。
         icon: https://www.google.com/s2/favicons?domain=v.qq.com&sz=128
         details: |
@@ -203,6 +213,7 @@ groups:
           <p>支持多种设备访问，包括网页、手机应用和智能电视。</p>
       - name: 优酷
         url: https://www.youku.com/
+        slug: youku
         intro: 阿里巴巴旗下长视频平台，剧综动漫等。
         icon: https://www.google.com/s2/favicons?domain=www.youku.com&sz=128
         details: |
@@ -211,6 +222,7 @@ groups:
           <p>支持高清播放和多屏互动体验。</p>
       - name: 爱奇艺
         url: https://www.iqiyi.com/
+        slug: iqiyi
         intro: 长视频平台，自制剧综与电影资源。
         icon: https://www.google.com/s2/favicons?domain=www.iqiyi.com&sz=128
         details: |
@@ -218,6 +230,7 @@ groups:
           <p>提供大量独家自制内容，如热门电视剧、综艺节目和动漫作品。</p>
           <p>支持多种会员服务和个性化推荐功能。</p>
       - name: 哔哩哔哩
+        slug: bilibili
         url: https://www.bilibili.com/
         intro: 年轻人视频社区，番剧、直播与 UP 主创作。
         icon: https://cdn.simpleicons.org/bilibili?size=128
@@ -234,6 +247,7 @@ groups:
           <p>提供海量正版音乐资源，支持个性化推荐和高质量音质。</p>
           <p>用户可以创建和分享歌单，并参与音乐评论区的互动。</p>
       - name: QQ音乐
+        slug: qqmusic
         url: https://y.qq.com/
         intro: 腾讯旗下音乐平台，曲库丰富。
         icon: https://www.google.com/s2/favicons?domain=y.qq.com&sz=128
@@ -251,6 +265,7 @@ groups:
           <p>用户可以在线听歌、下载歌曲到本地，并与其他用户交流。</p>
 
       - name: CCTV直播
+        slug: cctv-live
         url: https://tv.cctv.com/live/index.shtml
         intro: 央视多频道在线直播与节目回看。
         icon: https://www.google.com/s2/favicons?domain=tv.cctv.com&sz=128
@@ -263,6 +278,7 @@ groups:
     name: 短视频
     links:
       - name: 抖音网页版
+        slug: douyin
         url: https://www.douyin.com/
         intro: 短视频与直播平台，推荐信息流。
         icon: https://www.google.com/s2/favicons?domain=www.douyin.com&sz=128
@@ -271,6 +287,7 @@ groups:
           <p>用户可以浏览、点赞、评论和分享各种创意短视频。</p>
           <p>通过智能算法推荐个性化内容，支持直播互动功能。</p>
       - name: 快手网页版
+        slug: kuaishou
         url: https://www.kuaishou.com/
         intro: 短视频社区与直播平台。
         icon: https://www.google.com/s2/favicons?domain=www.kuaishou.com&sz=128
@@ -283,6 +300,7 @@ groups:
     name: 社交/社区
     links:
       - name: 微博
+        slug: weibo
         url: https://www.weibo.com/
         intro: 中文社交媒体与话题平台。
         icon: https://cdn.simpleicons.org/sinaweibo?size=128
@@ -291,6 +309,7 @@ groups:
           <p>用户可以发布140字（或更多）的短消息，实现即时分享。</p>
           <p>支持关注明星、大V和好友，参与热门话题讨论。</p>
       - name: 知乎
+        slug: zhihu
         url: https://www.zhihu.com/explore
         intro: 问答社区，分享知识、经验与见解。
         icon: https://cdn.simpleicons.org/zhihu?size=128
@@ -299,6 +318,7 @@ groups:
           <p>用户可以提出问题、分享见解，获得有深度的解答。</p>
           <p>通过高质量内容创作与专业讨论，构建可信的知识分享平台。</p>
       - name: 豆瓣
+        slug: douban
         url: https://www.douban.com/
         intro: 书影音评分与评论社区。
         icon: https://cdn.simpleicons.org/douban?size=128
@@ -307,6 +327,7 @@ groups:
           <p>用户可以记录和分享自己的观影、读书和听音乐体验。</p>
           <p>平台聚集了大量文艺爱好者，形成了独特的品味评价体系。</p>
       - name: 百度贴吧
+        slug: tieba.baidu.com
         url: https://tieba.baidu.com/
         intro: 基于兴趣主题的社区论坛。
         icon: https://cdn.simpleicons.org/baidu?size=128
@@ -315,6 +336,7 @@ groups:
           <p>用户可以根据兴趣爱好创建或加入不同的贴吧进行交流。</p>
           <p>涵盖娱乐、游戏、学习、生活等各个领域的主题讨论。</p>
       - name: 简书
+        slug: jianshu.com
         url: https://www.jianshu.com/
         intro: 写作与阅读社区，发布文章与专题。
         icon: https://www.google.com/s2/favicons?domain=www.jianshu.com&sz=128
@@ -328,6 +350,7 @@ groups:
     name: 购物/生活
     links:
       - name: 淘宝
+        slug: taobao
         url: https://www.taobao.com/
         intro: 综合电商平台，海量商品与店铺。
         icon: https://cdn.simpleicons.org/taobao?size=128
@@ -340,6 +363,7 @@ groups:
     name: 办公/效率
     links:
       - name: 文件传输助手
+        slug: filehelper.weixin.qq.com
         url: https://filehelper.weixin.qq.com/
         intro: 微信生态内文本与文件跨设备传输。
         icon: https://cdn.simpleicons.org/wechat?size=128
@@ -348,6 +372,7 @@ groups:
           <p>用户可以在手机、电脑等不同设备间快速发送文件和文本。</p>
           <p>无需添加好友即可实现便捷的数据同步与备份。</p>
       - name: 微信公众平台
+        slug: mp.weixin.qq.com
         url: https://mp.weixin.qq.com/
         intro: 公众号内容发布与运营管理。
         icon: https://cdn.simpleicons.org/wechat?size=128
@@ -357,9 +382,11 @@ groups:
           <p>提供数据分析、粉丝管理和消息互动等功能，助力品牌传播。</p>
       - name: 企业微信
         url: https://work.weixin.qq.com/
+        slug: work.weixin.qq.com
         intro: 企业沟通协作与办公。
         icon: https://cdn.simpleicons.org/wechat?size=128
       - name: 看云
+        slug: kancloud.cn
         url: https://www.kancloud.cn/invite?code=629a2ef59f83a
         intro: 在线文档托管与团队协作平台。
         icon: https://www.google.com/s2/favicons?domain=www.kancloud.cn&sz=128
@@ -370,6 +397,7 @@ groups:
     links:
       - name: Rust Docs
         url: https://doc.rust-lang.org
+        slug: doc.rust-lang.org
         intro: Rust 官方文档
         details: |
           <p>官方书籍《The Rust Programming Language》与标准库参考，含示例与最佳实践。</p>
@@ -377,6 +405,7 @@ groups:
       # ----------------
       - name: MDN Web Docs
         url: https://developer.mozilla.org
+        slug: developer.mozilla.org
         intro: Web 开发文档
         details: |
           <p>权威 Web 文档，覆盖 HTML/CSS/JS、浏览器 API 与兼容性数据（BCD）。</p>
@@ -384,6 +413,7 @@ groups:
       # ----------------
       - name: Stack Overflow
         url: https://stackoverflow.com
+        slug: stackoverflow.com
         intro: 开发问答
         details: |
           <p>开发者问答社区，可搜索常见报错与解决方案，参考高票答案与讨论。</p>
@@ -391,6 +421,7 @@ groups:
       # ----------------
       - name: GeeksforGeeks
         url: https://www.geeksforgeeks.org
+        slug: geeksforgeeks.org
         intro: 计算机知识
         details: |
           <p>计算机基础与数据结构/算法教程，附题解与面试经验分享。</p>
@@ -398,6 +429,7 @@ groups:
       # ----------------
       - name: Notion
         url: https://www.notion.so/
+        slug: notion.so
         intro: AI工作空间
         details: |
           <p>一个AI工作空间，团队可以在这里找到每个答案，自动化繁忙工作，并完成项目。</p>
@@ -408,6 +440,7 @@ groups:
     links:
       - name: GitHub
         url: https://github.com
+        slug: github.com
         intro: 代码托管
         icon: https://cdn.simpleicons.org/github?size=128
         details: |
@@ -415,13 +448,15 @@ groups:
       # ----------------
       - name: GitLab
         url: https://gitlab.com
+        slug: gitlab.com
         intro: 代码托管与 CI
         details: |
           <p>集成代码托管与 CI/CD，支持 Pipeline、Issue Board 与容器注册表。</p>
         icon: https://cdn.simpleicons.org/gitlab?size=128
       # ----------------
       - name: crates.io
-        url: https://crates.io
+        url: https://crates.io/
+        slug: crates.io
         intro: Rust 包仓库
         details: |
           <p>Rust 生态的官方包仓库，用于发布、检索与依赖管理。</p>
@@ -431,13 +466,15 @@ groups:
     name: 工具
     links:
       - name: Regex101
-        url: https://regex101.com
+        url: https://regex101.com/
+        slug: regex101.com
         intro: 正则测试
         details: |
           <p>在线正则表达式测试与解释器，支持 PCRE、ECMAScript、Python 等多种方言。</p>
         icon: https://www.google.com/s2/favicons?domain=regex101.com&sz=128
       - name: Codelf
-        url: https://github.com/unbug/codelf
+        url: https://github.com/unbug/codelf/
+        slug: codelf.github.io
         icon: https://unbug.github.io/codelf/images/codelf_logo.f4ae25bd.png
         intro: 变量命名工具，帮助开发者查找变量名，通过搜索GitHub等开源平台源码提供符合驼峰命名法的命名建议，支持中文查询，并提供Atom、Sublime插件和Chrome应用
         details: |
@@ -458,28 +495,32 @@ groups:
           </ul>
       # ----------------
       - name: JSON Formatter
-        url: https://jsonformatter.org
+        url: https://jsonformatter.org/
+        slug: jsonformatter.org
         intro: JSON 工具
         details: |
           <p>JSON 在线格式化与校验，支持压缩、树形浏览与拷贝分享。</p>
         icon: https://cdn.simpleicons.org/json?size=128
       # ----------------
       - name: TinyPNG
-        url: https://tinypng.com
+        url: https://tinypng.com/
+        slug: tinypng.com 
         intro: 图片压缩
         details: |
           <p>智能压缩 PNG/JPG/WebP，显著降低体积同时尽量保持画质。</p>
         icon: https://www.google.com/s2/favicons?domain=tinypng.com&sz=128
       # ----------------
       - name: CodeSandbox
-        url: https://codesandbox.io
+        url: https://codesandbox.io/
+        slug: codesandbox.io
         intro: 在线 IDE
         details: |
           <p>云端在线 IDE，快速创建前端/全栈样例，便于协作与分享。</p>
         icon: https://cdn.simpleicons.org/codesandbox?size=128
       # ----------------
       - name: JSDelivr
-        url: https://www.jsdelivr.com
+        url: https://www.jsdelivr.com/
+        slug: jsdelivr.com
         intro: 前端 CDN
         details: |
           <p>免费公共 CDN，加速分发 npm/GitHub 资源，支持自定义版本与文件路径。</p>
@@ -487,6 +528,7 @@ groups:
       # ----------------
       - name: OGP
         url: https://ogp.me/
+        slug: ogp.me
         intro: 开放图协议
         details: |
           <p>开放图协议（OGP）用于在社交媒体上更好地分享网页内容。</p>
@@ -494,6 +536,7 @@ groups:
       # ----------------
       - name: Snipaste
         url: https://www.snipaste.com/
+        slug: snipaste.com
         intro: 截图与贴图工具
         details: |
           <p>简单但强大的截图工具，允许将截图固定回屏幕上。支持自动检测UI元素、像素级控制、颜色拾取器等功能。</p>
@@ -505,10 +548,13 @@ groups:
     links:
       - name: 阿里巴巴开源镜像站
         url: https://developer.aliyun.com/mirror/
+        slug: developer.aliyun.com
         intro: 常用开源软件镜像与加速下载。
         icon: https://cdn.simpleicons.org/alibabacloud?size=128
+
       - name: 腾讯软件中心
         url: https://pc.qq.com/category/c0.html 
+        slug: pc.qq.com
         intro: 腾讯官方软件下载与更新。
         icon: https://www.google.com/s2/favicons?domain=pc.qq.com&sz=128
 
@@ -516,7 +562,8 @@ groups:
     name: 刷题/练习
     links:
       - name: LeetCode
-        url: https://leetcode.com
+        url: https://leetcode.com/
+        slug: leetcode.com
         intro: 算法练习
         details: |
           <p>在线刷题平台，覆盖数据结构与算法，提供竞赛、讨论与题解。</p>
@@ -527,21 +574,24 @@ groups:
     name: 课程/书籍
     links:
       - name: Coursera
-        url: https://www.coursera.org
+        url: https://www.coursera.org/
+        slug: coursera.org
         intro: 在线课程
         details: |
           <p>全球高校与机构提供的在线课程与专精证书，涵盖计算机、商业与人文等。</p>
         icon: https://cdn.simpleicons.org/coursera?size=128
       # ----------------
       - name: Udemy
-        url: https://www.udemy.com
+        url: https://www.udemy.com/
+        slug: udemy.com
         intro: 付费课程
         details: |
           <p>面向实用技能的在线课程平台，内容多样，常有折扣促销。</p>
         icon: https://cdn.simpleicons.org/udemy?size=128
       # ----------------
       - name: 可汗学院
-        url: https://www.khanacademy.org
+        url: https://www.khanacademy.org/
+        slug: khanacademy.org
         intro: 免费课程
         details: |
           <p>非营利教育平台，提供数学、科学与计算机等免费课程与练习。</p>
