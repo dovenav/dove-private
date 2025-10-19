@@ -6,7 +6,7 @@ site:
   description: 基于Rust开发的Dove静态导航站点，汇集个人常用网站、工具与资源，提供便捷的网络访问入口
 
   # 页面配色方案（auto|light|dark）
-  color_scheme: auto
+  color_scheme: light
 
   # 主题目录（相对或绝对路径），包含 templates/ 与 assets/
   theme_dir: themes/default
