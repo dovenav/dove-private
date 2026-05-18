@@ -388,9 +388,28 @@ groups:
         icon: https://cdn.simpleicons.org/wechat?size=128
       - name: 看云
         slug: kancloud.cn
-        url: https://www.kancloud.cn/invite?code=629a2ef59f83a
+        url: https://www.kancloud.cn/invite?code=***
         intro: 在线文档托管与团队协作平台。
         icon: https://www.google.com/s2/favicons?domain=www.kancloud.cn&sz=128
+      - name: 打字鸭
+        slug: daziya.com
+        url: https://www.daziya.com/
+        intro: 免费打字练习平台，盲打指法、拼音、英文、趣味游戏
+        icon: https://www.google.com/s2/favicons?domain=daziya.com&sz=128
+        details: |
+          <p>打字鸭是一个免费在线打字练习平台，帮助用户快速掌握打字指法与盲打技巧，累计超过200万用户。</p>
+          <p><strong>核心功能：</strong></p>
+          <ul>
+            <li><strong>指法学习</strong>：详细讲解键盘键位分区，练习所有键位指法</li>
+            <li><strong>拼音打字</strong>：训练良好指法规范，养成肌肉记忆</li>
+            <li><strong>中文练习</strong>：包含诗词、文章、百科，贴近真实场景</li>
+            <li><strong>英文背单词</strong>：盲打练习的同时背诵初高中、四六级单词</li>
+            <li><strong>打字比赛</strong>：创建游戏或自动匹配，支持双人PK</li>
+            <li><strong>游戏专区</strong>：多款趣味打字游戏，放松中提升技巧</li>
+            <li><strong>数据报告</strong>：实时统计打字速度与准确率</li>
+            <li><strong>班级管理</strong>：为老师提供学生练习情况管理后台</li>
+          </ul>
+          <p>提供700+课程内容，满足多样化练习需求，适合个人学习与机构教学。</p>
 
   # 开发分类下的多个二级分组
   - category: 开发
