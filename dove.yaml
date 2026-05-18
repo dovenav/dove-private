@@ -553,6 +553,34 @@ groups:
         details: |
           <p>开放图协议（OGP）用于在社交媒体上更好地分享网页内容。</p>
         icon: https://ogp.me/logo.png
+      - name: CocoLoop Skill商店
+        slug: hub.cocoloop.cn
+        url: https://hub.cocoloop.cn/
+        intro: 更安全更快的 AI Agent Skills 商店，支持 12,000+ Skills，涵盖 AI 搜索、Agent增强、自媒体创作等多个分类
+        icon: https://www.google.com/s2/favicons?domain=hub.cocoloop.cn&sz=64
+        details: |
+          <p>CocoLoop Skill商店是一个更安全更快的 AI Agent Skills 平台，为 AI Agent 提供技能扩展市场。</p>
+          <p><strong>平台数据：</strong></p>
+          <ul>
+            <li>12,000+ 可用 Skills</li>
+            <li>50+ 支持平台</li>
+            <li>CLS 安全检查认证</li>
+          </ul>
+          <p><strong>支持的主流 Agent 平台：</strong></p>
+          <ul>
+            <li>OpenClaw、Copilot、Cursor、Claude Code、Cline、Continue</li>
+            <li>GitHub Copilot、OpenAI、Gemini、Kimi、Trae、Manus</li>
+            <li>Docker-sandbox、tavily-search、agent-browser 等精选 Skills</li>
+          </ul>
+          <p><strong>Skills 分类：</strong></p>
+          <ul>
+            <li>AI 搜索研究（tavily-search-pro 等）</li>
+            <li>Agent 增强与自主进化</li>
+            <li>技术开发（代码执行、数据库等）</li>
+            <li>自媒体创作与运营</li>
+            <li>理财炒股、知识管理等</li>
+          </ul>
+          <p>国内镜像下载加速，人工精选 Top 50 榜单。</p>
       # ----------------
       - name: Snipaste
         url: https://www.snipaste.com/
