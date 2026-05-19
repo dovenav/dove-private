@@ -644,3 +644,108 @@ groups:
         details: |
           <p>非营利教育平台，提供数学、科学与计算机等免费课程与练习。</p>
         icon: https://cdn.simpleicons.org/khanacademy?size=128
+
+  - category: 开源项目
+    name: 技术工具
+    links:
+      - name: Dive into LLM（动手学大模型）
+        url: https://github.com/Lordog/dive-into-llms
+        icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
+        intro: 上海交大出品的大模型编程实践教程，30k+ Stars，涵盖微调部署、数学推理、GUI Agent、大模型对齐等核心主题
+        details: |
+          <p><strong>《动手学大模型（Dive into LLMs）》</strong>系列编程实践教程，由上海交通大学《自然语言处理前沿技术》（NIS8021）和《人工智能安全技术》（NIS3353）课程讲义拓展而来，旨在提供大模型相关的入门编程参考。</p>
+          <p><strong>核心内容：</strong></p>
+          <ul>
+            <li><strong>编程实践导向</strong>：通过简单实践帮助快速入门大模型，更好地开展课程设计或学术研究</li>
+            <li><strong>系统化教程目录</strong>：涵盖微调与部署、数学推理、GUI Agent、大模型对齐、隐写术等多个前沿主题</li>
+            <li><strong>国产化支持</strong>：新增国产化《大模型开发全流程》公益教程（含PPT、实验手册和视频），特别感谢华为昇腾社区的支持</li>
+            <li><strong>持续更新</strong>：在原系列基础上持续增加新主题，保持内容与时俱进</li>
+            <li><strong>公益性质</strong>：完全免费，面向学生和研究者</li>
+          </ul>
+          <p>适合有一定编程基础、希望快速入门大模型技术并开展实践项目的学习者。</p>
+      - name: Self-LLM（开源大模型食用指南）
+        url: https://github.com/datawhalechina/self-llm
+        icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
+        intro: Datawhale出品的开源大模型本地部署与微调教程，30k+ Stars，1381次提交，支持国内外主流开源LLM
+        details: |
+          <p><strong>《开源大模型食用指南》（Self-LLM）</strong>是 Datawhale 团队专为中文开发者打造的开源大模型本地部署与微调教程，针对中国开发者环境优化。</p>
+          <p><strong>核心内容：</strong></p>
+          <ul>
+            <li><strong>全参数微调</strong>：详细讲解如何对大模型进行全参数微调</li>
+            <li><strong>LoRA微调</strong>：覆盖高效的LoRA微调方法，降低微调门槛</li>
+            <li><strong>多平台支持</strong>：支持 NVIDIA GPU、华为昇腾（Ascend）、Apple MLX 等多种硬件平台</li>
+            <li><strong>主流模型覆盖</strong>：涵盖 Qwen、Yuan2.0、LLaMA2、Gemma4 等国内外开源大模型</li>
+            <li><strong>多模态大模型</strong>：包含MLLM（多模态大模型）的部署与微调指南</li>
+            <li><strong>丰富的示例代码</strong>：提供 1300+ 条 commit，配套大量实践案例</li>
+          </ul>
+          <p>适合想要在本地环境部署、微调和优化开源大模型的开发者。</p>
+      - name: Happy-LLM（从零开始构建大模型）
+        url: https://github.com/datawhalechina/happy-llm
+        icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
+        intro: Datawhale进阶项目，30k+ Stars，从NLP基础理论到亲手实现LLaMA2，系统构建大模型知识体系
+        details: |
+          <p><strong>Happy-LLM</strong>是 Datawhale 的进阶级开源项目，专注于从零开始系统学习大模型的原理与实现，被誉为"从NLP基础到手搓LLaMA2"的进阶路径。</p>
+          <p><strong>核心内容：</strong></p>
+          <ul>
+            <li><strong>循序渐进的学习路径</strong>：从NLP基础理论开始，逐步深入到大模型核心原理</li>
+            <li><strong>手把手实现LLaMA2</strong>：深入剖析LLaMA2架构，亲手实现关键组件</li>
+            <li><strong>理论+实践结合</strong>：每章节配套实践内容，强化理解</li>
+            <li><strong>完善的章节链接</strong>：提供学习建议和章节间关联指引</li>
+            <li><strong>中英文文档</strong>：同时提供中文和英文版本教程</li>
+            <li><strong>活跃社区维护</strong>：279次commit，持续更新优化</li>
+          </ul>
+          <p>适合有一定基础、希望深入理解大模型内部原理并亲手实现的学习者。</p>
+      - name: LLM-Universe（动手学大模型应用开发）
+        url: https://github.com/datawhalechina/llm-universe
+        icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
+        intro: Datawhale小白教程，13k+ Stars，基于大模型开发上层应用，涵盖RAG、Agent开发等实用场景
+        details: |
+          <p><strong>LLM Universe（动手学大模型应用开发）</strong>是 Datawhale 面向入门开发者的大模型应用开发教程，以"会写代码就能上手"为设计理念。</p>
+          <p><strong>核心内容：</strong></p>
+          <ul>
+            <li><strong>零基础友好</strong>：专为编程新手设计，无需深度学习背景也能上手</li>
+            <li><strong>大模型应用开发</strong>：基于主流大模型 API 构建上层应用</li>
+            <li><strong>RAG检索增强</strong>：详细讲解如何构建 RAG 系统，结合私有知识库</li>
+            <li><strong>数据库集成</strong>：涵盖向量数据库（Chroma等）的使用</li>
+            <li><strong>Prompt工程</strong>：从基础到高级的Prompt编写技巧</li>
+            <li><strong>配套Notebook</strong>：所有章节配有Jupyter Notebook代码示例</li>
+          </ul>
+          <p>适合编程初学者、希望快速上手大模型应用开发的开发者。在线阅读：https://datawhalechina.github.io/llm-universe/</p>
+      - name: Hello-Agents（从零开始构建智能体）
+        url: https://github.com/datawhalechina/Hello-Agents
+        icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
+        intro: Datawhale智能体教程，50k+ Stars，覆盖Agent基础到多智能体应用，含SoftwareDevHelper等实战项目
+        details: |
+          <p><strong>Hello-Agents（从零开始构建智能体）</strong>是 Datawhale 的智能体（Agent）入门与实践教程，系统讲解从Agent基础到多智能体协作的核心知识。</p>
+          <p><strong>核心内容：</strong></p>
+          <ul>
+            <li><strong>Agent基础</strong>：从零讲解什么是智能体，核心组成和工作原理</li>
+            <li><strong>多智能体系统</strong>：深入探讨多智能体协作、对话与任务分配</li>
+            <li><strong>实战项目</strong>：包含 SoftwareDevHelper（编程学习助手）、StockInsightAgent 等完整智能体实现</li>
+            <li><strong>代码实践</strong>：配套完整的代码仓库，边学边做</li>
+            <li><strong>丰富的附加章节</strong>：涵盖旅程规划等多个后训练主题</li>
+            <li><strong>社区活跃</strong>：789次commit，50k+ Stars，6k+ Fork，社区贡献丰富</li>
+          </ul>
+          <p>适合对AI Agent感兴趣、想要学习如何构建智能体系统的开发者。</p>
+      - name: Claw-code（Claude Code开源实现）
+        url: https://github.com/ultraworkers/claw-code
+        icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
+        intro: Claude Code的clean-room重写版，史上最快突破100k Stars的开源项目，Rust编写，集成oh-my-codex
+        details: |
+          <p><strong>Claw-code</strong>是 Claude Code 的 clean-room 重写实现，由 ultraworkers 团队开发，是 GitHub 历史上最快突破 100k Stars 的开源项目之一。</p>
+          <p><strong>核心特点：</strong></p>
+          <ul>
+            <li><strong>史上最快破100k Stars</strong>：创下开源社区纪录，Discord社群火爆</li>
+            <li><strong>Rust编写</strong>：高性能、高安全性，系统资源利用率低</li>
+            <li><strong>集成 oh-my-codex</strong>：使用 oh-my-codex 作为代码引擎</li>
+            <li><strong>丰富的文档</strong>：包含完整的 Roadmap、CLAUDE.md 编写指南</li>
+            <li><strong>多分支开发</strong>：149个活跃分支，完善的PR审查流程</li>
+            <li><strong>生产级质量</strong>：具备完整的Gate审查和PR质量把控机制</li>
+          </ul>
+          <p><strong>技术亮点：</strong></p>
+          <ul>
+            <li>基于 Rust 的异步运行时，性能卓越</li>
+            <li>完善的测试和CI/CD流程</li>
+            <li>活跃的Discord社区（https://discord.gg/5TUQKqFWd）</li>
+          </ul>
+          <p>适合对 Claude Code 原理感兴趣、想要研究 AI 编程工具实现、或参与高性能 Rust 项目开发的开发者。</p>
