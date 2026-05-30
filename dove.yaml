@@ -644,6 +644,30 @@ groups:
         details: |
           <p>非营利教育平台，提供数学、科学与计算机等免费课程与练习。</p>
         icon: https://cdn.simpleicons.org/khanacademy?size=128
+      # ----------------
+      - name: YCL Python 四级互动课件
+        url: https://ycl-python-level4.anycps.com/
+        slug: ycl-python-level4
+        intro: Python 四级互动教学课件，支持投屏、练习与进度导出
+        details: |
+          <p><strong>YCL Python 四级互动教学课件</strong>是一套面向 Python 入门到进阶的互动式教学课件，可投屏展示、支持课堂练习，并可导出完整学习进度 JSON 文件。</p>
+          <p><strong>课程内容：</strong></p>
+          <ul>
+            <li><strong>序章</strong>：Python 起源与特点</li>
+            <li><strong>第1章</strong>：变量与常量、数据类型与运算符</li>
+            <li><strong>第2章</strong>：整数与浮点数高级运算、字符串类型</li>
+            <li><strong>第3章</strong>：顺序结构、选择结构（if/elif/else）、循环结构（for / while）</li>
+            <li><strong>第4章</strong>：函数定义与调用、变量作用域与常用模块</li>
+            <li><strong>第5章</strong>：文件操作与异常处理</li>
+            <li><strong>第6章</strong>：算法综合应用</li>
+            <li><strong>Turtle 趣味拓展</strong>：小画家、画正方形、画五角星、综合创作</li>
+            <li><strong>循环进阶</strong>：while 循环、break 退出</li>
+            <li><strong>函数小工厂</strong>：def 定义函数、参数传递与返回值</li>
+            <li><strong>数学挑战关</strong>：分解质因数（递归）</li>
+            <li><strong>题库改造挑战</strong>：集合、列表、循环与递归综合</li>
+          </ul>
+          <p>共计 29 课时，适合中小学 Python 编程教学或自学练习。</p>
+        icon: https://www.google.com/s2/favicons?domain=ycl-python-level4.anycps.com&sz=128
 
   - category: 开源项目
     name: 技术工具
