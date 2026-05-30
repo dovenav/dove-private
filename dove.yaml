@@ -58,6 +58,21 @@ groups:
         url: https://github.com/dovenav/dove
         intro: 用 Rust 构建的静态导航站点生成器
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="../../assets/favicon-f.svg" alt="dove 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">dove</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">github.com</span>
+            </div>
+          </div>
+          <p><strong>dove</strong> 是「置顶 / 项目」分组里的常用入口，主要用于用 Rust 构建的静态导航站点生成器。</p>
+          <ul>
+            <li><strong>适合场景：</strong>展示 Dove 项目本身、配置仓库和站点搭建方式，适合作为导航站说明入口。</li>
+            <li><strong>使用建议：</strong>用于向访问者说明这个导航站的来源、用途和部署方式，也适合做演示时的第一站。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p><strong>dove</strong> 是一个以 Rust 开发的静态网页导航站点生成器，内置
           <a href="https://tera.netlify.app/" target="_blank" rel="noopener">Tera</a> 模板引擎与主题目录，支持自定义 HTML/CSS/JS。</p>
           <ul>
@@ -76,6 +91,21 @@ groups:
         url: https://github.com/dovenav/dove-private
         intro: 基于 dove 的私有配置与 Pages/Workers 部署模板
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="../../assets/favicon-f.svg" alt="dove-private 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">dove-private</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">github.com</span>
+            </div>
+          </div>
+          <p><strong>dove-private</strong> 是「置顶 / 项目」分组里的常用入口，主要用于基于 dove 的私有配置与 Pages/Workers 部署模板。</p>
+          <ul>
+            <li><strong>适合场景：</strong>展示 Dove 项目本身、配置仓库和站点搭建方式，适合作为导航站说明入口。</li>
+            <li><strong>使用建议：</strong>用于向访问者说明这个导航站的来源、用途和部署方式，也适合做演示时的第一站。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p><strong>dove-private</strong> 是一个仅包含站点配置与 CI 的示例/模板仓库，配合
           <a href="https://github.com/dovenav/dove" target="_blank" rel="noopener">dove</a>
           生成静态页面，并通过以下两种方式自动发布：</p>
@@ -91,14 +121,28 @@ groups:
       - name: 友链申请
         url: https://github.com/dovenav/dove-private/blob/main/dove.yaml
         intro: 用 Rust 构建的静态导航站点生成器
-        icon: assets/favicon-f.svg
-        slug: dove-private-friends
-        intermediate_page: false
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="../../assets/favicon-f.svg" alt="友链申请 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">友链申请</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">github.com</span>
+            </div>
+          </div>
+          <p><strong>友链申请</strong> 是「置顶 / 项目」分组里的常用入口，主要用于用 Rust 构建的静态导航站点生成器。</p>
+          <ul>
+            <li><strong>适合场景：</strong>展示 Dove 项目本身、配置仓库和站点搭建方式，适合作为导航站说明入口。</li>
+            <li><strong>使用建议：</strong>用于向访问者说明这个导航站的来源、用途和部署方式，也适合做演示时的第一站。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>你可以通过编辑此 YAML 配置文件来申请添加你的网站链接。</p>
           <p>请按照现有格式添加你的网站信息，包括名称、URL、简介、图标等。</p>
           <p>提交 Pull Request 后，我们会审核并合并你的更改。</p>
-      
+        icon: assets/favicon-f.svg
+        slug: dove-private-friends
+        intermediate_page: false
   # 常用分类下的多个二级分组
   - category: 常用
     name: 搜索
@@ -108,6 +152,21 @@ groups:
         url: https://www.google.com
         intro: 搜索引擎
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/google?size=128" alt="Google 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Google</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.google.com</span>
+            </div>
+          </div>
+          <p><strong>Google</strong> 是「常用 / 搜索」分组里的常用入口，主要用于搜索引擎。</p>
+          <ul>
+            <li><strong>适合场景：</strong>快速检索资料、验证信息、查找图片/视频/新闻，以及作为浏览器新标签页里的第一入口。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>Google 是一个<strong>搜索引擎</strong>。</p>
         slug: google
         icon: https://cdn.simpleicons.org/google?size=128
@@ -123,9 +182,24 @@ groups:
       - name: Bing
         url: https://www.bing.com
         intro: 微软搜索
-        slug: bing
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=www.bing.com&amp;sz=128" alt="Bing 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Bing</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.bing.com</span>
+            </div>
+          </div>
+          <p><strong>Bing</strong> 是「常用 / 搜索」分组里的常用入口，主要用于微软搜索。</p>
+          <ul>
+            <li><strong>适合场景：</strong>快速检索资料、验证信息、查找图片/视频/新闻，以及作为浏览器新标签页里的第一入口。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>微软旗下搜索引擎，适合日常检索、图片与视频搜索。</p>
+        slug: bing
         icon: https://www.google.com/s2/favicons?domain=www.bing.com&sz=128
       # ----------------
       - name: DuckDuckGo
@@ -133,6 +207,21 @@ groups:
         url: https://duckduckgo.com
         intro: 注重隐私的搜索
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/duckduckgo?size=128" alt="DuckDuckGo 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">DuckDuckGo</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">duckduckgo.com</span>
+            </div>
+          </div>
+          <p><strong>DuckDuckGo</strong> 是「常用 / 搜索」分组里的常用入口，主要用于注重隐私的搜索。</p>
+          <ul>
+            <li><strong>适合场景：</strong>快速检索资料、验证信息、查找图片/视频/新闻，以及作为浏览器新标签页里的第一入口。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>注重隐私保护的搜索引擎，不跟踪用户，支持 <code>!bang</code> 语法直达站内搜索。</p>
         icon: https://cdn.simpleicons.org/duckduckgo?size=128
       # ----------------
@@ -141,9 +230,248 @@ groups:
         url: https://www.baidu.com
         intro: 国内搜索
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/baidu?size=128" alt="百度 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">百度</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.baidu.com</span>
+            </div>
+          </div>
+          <p><strong>百度</strong> 是「常用 / 搜索」分组里的常用入口，主要用于国内搜索。</p>
+          <ul>
+            <li><strong>适合场景：</strong>快速检索资料、验证信息、查找图片/视频/新闻，以及作为浏览器新标签页里的第一入口。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>中文搜索引擎，覆盖网页、资讯、视频与地图等内容与服务。</p>
         icon: https://cdn.simpleicons.org/baidu?size=128
 
+  - category: 常用
+    name: 热门常用
+    display: standard
+    links:
+      - name: ChatGPT
+        url: https://chatgpt.com
+        intro: AI 对话、写作、编程与资料整理助手。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=chatgpt.com&amp;sz=128" alt="ChatGPT 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">ChatGPT</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">chatgpt.com</span>
+            </div>
+          </div>
+          <p><strong>ChatGPT</strong> 是「常用 / 热门常用」分组里的常用入口，主要用于AI 对话、写作、编程与资料整理助手。</p>
+          <ul>
+            <li><strong>适合场景：</strong>演示 AI、翻译、办公、设计和资讯等高频入口，让导航站一打开就有可点击的真实内容。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
+          <p>ChatGPT 是常用的 AI 助手，可用于问答、代码辅助、写作润色、资料归纳和日常创意探索。</p>
+        slug: chatgpt
+        icon: https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128
+      - name: Claude
+        url: https://claude.ai
+        intro: 适合长文本阅读、分析和创作的 AI 助手。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=claude.ai&amp;sz=128" alt="Claude 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Claude</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">claude.ai</span>
+            </div>
+          </div>
+          <p><strong>Claude</strong> 是「常用 / 热门常用」分组里的常用入口，主要用于适合长文本阅读、分析和创作的 AI 助手。</p>
+          <ul>
+            <li><strong>适合场景：</strong>演示 AI、翻译、办公、设计和资讯等高频入口，让导航站一打开就有可点击的真实内容。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
+          <p>Claude 适合处理较长的文档、对话和写作任务，也常用于方案梳理、摘要和创意协作。</p>
+        slug: claude
+        icon: https://www.google.com/s2/favicons?domain=claude.ai&sz=128
+      - name: DeepL
+        url: https://www.deepl.com/translator
+        intro: 多语言翻译与文本润色工具。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=deepl.com&amp;sz=128" alt="DeepL 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">DeepL</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.deepl.com</span>
+            </div>
+          </div>
+          <p><strong>DeepL</strong> 是「常用 / 热门常用」分组里的常用入口，主要用于多语言翻译与文本润色工具。</p>
+          <ul>
+            <li><strong>适合场景：</strong>演示 AI、翻译、办公、设计和资讯等高频入口，让导航站一打开就有可点击的真实内容。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
+          <p>DeepL 提供多语言翻译服务，适合处理外文资料、邮件、文档片段和日常表达润色。</p>
+        slug: deepl
+        icon: https://www.google.com/s2/favicons?domain=deepl.com&sz=128
+      - name: Google Translate
+        url: https://translate.google.com
+        intro: Google 在线翻译，支持网页、文本和多语言互译。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=translate.google.com&amp;sz=128" alt="Google Translate 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Google Translate</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">translate.google.com</span>
+            </div>
+          </div>
+          <p><strong>Google Translate</strong> 是「常用 / 热门常用」分组里的常用入口，主要用于Google 在线翻译，支持网页、文本和多语言互译。</p>
+          <ul>
+            <li><strong>适合场景：</strong>演示 AI、翻译、办公、设计和资讯等高频入口，让导航站一打开就有可点击的真实内容。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
+          <p>Google Translate 是常用在线翻译工具，覆盖语言广，适合快速理解网页、短文本和跨语言沟通。</p>
+        slug: google-translate
+        icon: https://www.google.com/s2/favicons?domain=translate.google.com&sz=128
+      - name: Gmail
+        url: https://mail.google.com
+        intro: Google 邮箱服务，适合演示办公类入口。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=mail.google.com&amp;sz=128" alt="Gmail 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Gmail</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">mail.google.com</span>
+            </div>
+          </div>
+          <p><strong>Gmail</strong> 是「常用 / 热门常用」分组里的常用入口，主要用于Google 邮箱服务，适合演示办公类入口。</p>
+          <ul>
+            <li><strong>适合场景：</strong>演示 AI、翻译、办公、设计和资讯等高频入口，让导航站一打开就有可点击的真实内容。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
+          <p>Gmail 是常见邮箱服务，适合作为个人工作台和在线办公入口示例。</p>
+        slug: gmail
+        icon: https://www.google.com/s2/favicons?domain=mail.google.com&sz=128
+      - name: Google Drive
+        url: https://drive.google.com
+        intro: 云端文件存储、同步与协作。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=drive.google.com&amp;sz=128" alt="Google Drive 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Google Drive</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">drive.google.com</span>
+            </div>
+          </div>
+          <p><strong>Google Drive</strong> 是「常用 / 热门常用」分组里的常用入口，主要用于云端文件存储、同步与协作。</p>
+          <ul>
+            <li><strong>适合场景：</strong>演示 AI、翻译、办公、设计和资讯等高频入口，让导航站一打开就有可点击的真实内容。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
+          <p>Google Drive 用于云端文件管理、共享和协作，适合展示文档与素材类常用入口。</p>
+        slug: google-drive
+        icon: https://www.google.com/s2/favicons?domain=drive.google.com&sz=128
+      - name: Canva
+        url: https://www.canva.com
+        intro: 在线设计工具，适合海报、演示文稿和社媒图片。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=canva.com&amp;sz=128" alt="Canva 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Canva</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.canva.com</span>
+            </div>
+          </div>
+          <p><strong>Canva</strong> 是「常用 / 热门常用」分组里的常用入口，主要用于在线设计工具，适合海报、演示文稿和社媒图片。</p>
+          <ul>
+            <li><strong>适合场景：</strong>演示 AI、翻译、办公、设计和资讯等高频入口，让导航站一打开就有可点击的真实内容。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
+          <p>Canva 提供在线设计模板和编辑能力，可快速制作海报、简报、社交媒体图片等视觉素材。</p>
+        slug: canva
+        icon: https://www.google.com/s2/favicons?domain=canva.com&sz=128
+      - name: Figma
+        url: https://www.figma.com
+        intro: 在线协作式 UI 设计与原型工具。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=figma.com&amp;sz=128" alt="Figma 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Figma</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.figma.com</span>
+            </div>
+          </div>
+          <p><strong>Figma</strong> 是「常用 / 热门常用」分组里的常用入口，主要用于在线协作式 UI 设计与原型工具。</p>
+          <ul>
+            <li><strong>适合场景：</strong>演示 AI、翻译、办公、设计和资讯等高频入口，让导航站一打开就有可点击的真实内容。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
+          <p>Figma 常用于界面设计、原型制作和团队协作，适合作为设计/产品类入口演示。</p>
+        slug: figma
+        icon: https://www.google.com/s2/favicons?domain=figma.com&sz=128
+      - name: Product Hunt
+        url: https://www.producthunt.com
+        intro: 发现新产品、应用和创业项目。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=producthunt.com&amp;sz=128" alt="Product Hunt 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Product Hunt</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.producthunt.com</span>
+            </div>
+          </div>
+          <p><strong>Product Hunt</strong> 是「常用 / 热门常用」分组里的常用入口，主要用于发现新产品、应用和创业项目。</p>
+          <ul>
+            <li><strong>适合场景：</strong>演示 AI、翻译、办公、设计和资讯等高频入口，让导航站一打开就有可点击的真实内容。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
+          <p>Product Hunt 聚合新发布的产品、工具和创业项目，适合发现热门应用和产品灵感。</p>
+        slug: product-hunt
+        icon: https://www.google.com/s2/favicons?domain=producthunt.com&sz=128
+      - name: Hacker News
+        url: https://news.ycombinator.com
+        intro: 技术、创业和开发者社区资讯。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=news.ycombinator.com&amp;sz=128" alt="Hacker News 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Hacker News</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">news.ycombinator.com</span>
+            </div>
+          </div>
+          <p><strong>Hacker News</strong> 是「常用 / 热门常用」分组里的常用入口，主要用于技术、创业和开发者社区资讯。</p>
+          <ul>
+            <li><strong>适合场景：</strong>演示 AI、翻译、办公、设计和资讯等高频入口，让导航站一打开就有可点击的真实内容。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
+          <p>Hacker News 是技术与创业社区资讯站点，常用于浏览开发者话题、产品讨论和行业动态。</p>
+        slug: hacker-news
+        icon: https://www.google.com/s2/favicons?domain=news.ycombinator.com&sz=128
   - category: 常用
     name: 媒体/社交
     display: list
@@ -151,9 +479,24 @@ groups:
       - name: YouTube
         url: https://www.youtube.com
         intro: 视频平台
-        slug: youtube
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/youtube?size=128" alt="YouTube 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">YouTube</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.youtube.com</span>
+            </div>
+          </div>
+          <p><strong>YouTube</strong> 是「常用 / 媒体/社交」分组里的常用入口，主要用于视频平台。</p>
+          <ul>
+            <li><strong>适合场景：</strong>浏览视频内容、追踪社交动态、参与社区讨论，并展示列表型链接布局。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>全球最大的视频平台，支持频道订阅、播放列表与直播功能。</p>
+        slug: youtube
         icon: https://cdn.simpleicons.org/youtube?size=128
       # ----------------
       - name: Twitter (X)
@@ -161,6 +504,21 @@ groups:
         url: https://twitter.com
         intro: 社交网络
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/x?size=128" alt="Twitter (X) 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Twitter (X)</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">twitter.com</span>
+            </div>
+          </div>
+          <p><strong>Twitter (X)</strong> 是「常用 / 媒体/社交」分组里的常用入口，主要用于社交网络。</p>
+          <ul>
+            <li><strong>适合场景：</strong>浏览视频内容、追踪社交动态、参与社区讨论，并展示列表型链接布局。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>社交与资讯平台，关注话题、创建列表，并参与实时讨论。</p>
         icon: https://cdn.simpleicons.org/x?size=128
       # ----------------
@@ -169,6 +527,21 @@ groups:
         url: https://www.reddit.com
         intro: 社区讨论
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/reddit?size=128" alt="Reddit 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Reddit</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.reddit.com</span>
+            </div>
+          </div>
+          <p><strong>Reddit</strong> 是「常用 / 媒体/社交」分组里的常用入口，主要用于社区讨论。</p>
+          <ul>
+            <li><strong>适合场景：</strong>浏览视频内容、追踪社交动态、参与社区讨论，并展示列表型链接布局。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>基于主题分版块（Subreddit）的社区讨论平台，涵盖技术、兴趣与新闻。</p>
         icon: https://cdn.simpleicons.org/reddit?size=128
 
@@ -178,16 +551,45 @@ groups:
       - name: Wikipedia
         url: https://www.wikipedia.org
         intro: 自由百科全书
-        slug: wikipedia
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/wikipedia?size=128" alt="Wikipedia 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Wikipedia</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.wikipedia.org</span>
+            </div>
+          </div>
+          <p><strong>Wikipedia</strong> 是「常用 / 百科」分组里的常用入口，主要用于自由百科全书。</p>
+          <ul>
+            <li><strong>适合场景：</strong>查询概念、背景资料、教程步骤和基础知识，适合作为学习型导航入口。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>自由协作的百科全书，多语言内容由社区共同维护与校对。</p>
+        slug: wikipedia
         icon: https://cdn.simpleicons.org/wikipedia?size=128
       # ----------------
       - name: wikiHow
         url: https://zh.wikihow.com/%E9%A6%96%E9%A1%B5
         intro: 万事指南
-        slug: wikihow 
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://zh.wikihow.com/favicon.ico" alt="wikiHow 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">wikiHow</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">zh.wikihow.com</span>
+            </div>
+          </div>
+          <p><strong>wikiHow</strong> 是「常用 / 百科」分组里的常用入口，主要用于万事指南。</p>
+          <ul>
+            <li><strong>适合场景：</strong>查询概念、背景资料、教程步骤和基础知识，适合作为学习型导航入口。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>wikiHow汇聚各个领域值得信赖的研究与专业知识。自2005年以来，已帮助数十亿人学习如何解决大大小小的问题。</p>
           <p>网站特点：</p>
           <ul>
@@ -196,6 +598,7 @@ groups:
             <li>涵盖生活、工作、学习各方面的技巧</li>
             <li>权威可靠的内容来源</li>
           </ul>
+        slug: wikihow
         icon: https://zh.wikihow.com/favicon.ico
 
   # 常用：按场景细分
@@ -207,74 +610,192 @@ groups:
         url: https://v.qq.com
         slug: v.qq.com
         intro: 长视频平台，影视综艺与体育直播。
-        icon: https://www.google.com/s2/favicons?domain=v.qq.com&sz=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=v.qq.com&amp;sz=128" alt="腾讯视频 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">腾讯视频</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">v.qq.com</span>
+            </div>
+          </div>
+          <p><strong>腾讯视频</strong> 是「常用 / 视频/音乐」分组里的常用入口，主要用于长视频平台，影视综艺与体育直播。</p>
+          <ul>
+            <li><strong>适合场景：</strong>观看长视频、直播、综艺、影视内容或播放音乐，适合展示紧凑型图标布局。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>腾讯视频是一个提供丰富影视内容的在线视频平台。</p>
           <p>用户可以观看最新的电影、电视剧、综艺节目以及体育赛事直播。</p>
           <p>支持多种设备访问，包括网页、手机应用和智能电视。</p>
+        icon: https://www.google.com/s2/favicons?domain=v.qq.com&sz=128
       - name: 优酷
         url: https://www.youku.com/
         slug: youku
         intro: 阿里巴巴旗下长视频平台，剧综动漫等。
-        icon: https://www.google.com/s2/favicons?domain=www.youku.com&sz=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=www.youku.com&amp;sz=128" alt="优酷 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">优酷</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.youku.com</span>
+            </div>
+          </div>
+          <p><strong>优酷</strong> 是「常用 / 视频/音乐」分组里的常用入口，主要用于阿里巴巴旗下长视频平台，剧综动漫等。</p>
+          <ul>
+            <li><strong>适合场景：</strong>观看长视频、直播、综艺、影视内容或播放音乐，适合展示紧凑型图标布局。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>优酷是阿里巴巴集团旗下的视频分享网站。</p>
           <p>提供丰富的视频内容，包括独家剧集、电影、动漫、纪录片等。</p>
           <p>支持高清播放和多屏互动体验。</p>
+        icon: https://www.google.com/s2/favicons?domain=www.youku.com&sz=128
       - name: 爱奇艺
         url: https://www.iqiyi.com/
         slug: iqiyi
         intro: 长视频平台，自制剧综与电影资源。
-        icon: https://www.google.com/s2/favicons?domain=www.iqiyi.com&sz=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=www.iqiyi.com&amp;sz=128" alt="爱奇艺 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">爱奇艺</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.iqiyi.com</span>
+            </div>
+          </div>
+          <p><strong>爱奇艺</strong> 是「常用 / 视频/音乐」分组里的常用入口，主要用于长视频平台，自制剧综与电影资源。</p>
+          <ul>
+            <li><strong>适合场景：</strong>观看长视频、直播、综艺、影视内容或播放音乐，适合展示紧凑型图标布局。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>爱奇艺是中国领先的在线视频平台之一。</p>
           <p>提供大量独家自制内容，如热门电视剧、综艺节目和动漫作品。</p>
           <p>支持多种会员服务和个性化推荐功能。</p>
+        icon: https://www.google.com/s2/favicons?domain=www.iqiyi.com&sz=128
       - name: 哔哩哔哩
         slug: bilibili
         url: https://www.bilibili.com/
         intro: 年轻人视频社区，番剧、直播与 UP 主创作。
-        icon: https://cdn.simpleicons.org/bilibili?size=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/bilibili?size=128" alt="哔哩哔哩 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">哔哩哔哩</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.bilibili.com</span>
+            </div>
+          </div>
+          <p><strong>哔哩哔哩</strong> 是「常用 / 视频/音乐」分组里的常用入口，主要用于年轻人视频社区，番剧、直播与 UP 主创作。</p>
+          <ul>
+            <li><strong>适合场景：</strong>观看长视频、直播、综艺、影视内容或播放音乐，适合展示紧凑型图标布局。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>哔哩哔哩（B站）是中国年轻人喜爱的视频社区。</p>
           <p>提供丰富的弹幕视频内容，涵盖动画、游戏、科技、生活等多个领域。</p>
           <p>支持UP主创作和观众互动，形成了独特的文化氛围。</p>
+        icon: https://cdn.simpleicons.org/bilibili?size=128
       - name: 网易云音乐
         url: https://music.163.com/
         intro: 音乐流媒体，歌单与评论氛围。
-        icon: https://cdn.simpleicons.org/neteasecloudmusic?size=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/neteasecloudmusic?size=128" alt="网易云音乐 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">网易云音乐</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">music.163.com</span>
+            </div>
+          </div>
+          <p><strong>网易云音乐</strong> 是「常用 / 视频/音乐」分组里的常用入口，主要用于音乐流媒体，歌单与评论氛围。</p>
+          <ul>
+            <li><strong>适合场景：</strong>观看长视频、直播、综艺、影视内容或播放音乐，适合展示紧凑型图标布局。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>网易云音乐是一款专注于发现和分享的音乐产品。</p>
           <p>提供海量正版音乐资源，支持个性化推荐和高质量音质。</p>
           <p>用户可以创建和分享歌单，并参与音乐评论区的互动。</p>
+        icon: https://cdn.simpleicons.org/neteasecloudmusic?size=128
       - name: QQ音乐
         slug: qqmusic
         url: https://y.qq.com/
         intro: 腾讯旗下音乐平台，曲库丰富。
-        icon: https://www.google.com/s2/favicons?domain=y.qq.com&sz=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=y.qq.com&amp;sz=128" alt="QQ音乐 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">QQ音乐</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">y.qq.com</span>
+            </div>
+          </div>
+          <p><strong>QQ音乐</strong> 是「常用 / 视频/音乐」分组里的常用入口，主要用于腾讯旗下音乐平台，曲库丰富。</p>
+          <ul>
+            <li><strong>适合场景：</strong>观看长视频、直播、综艺、影视内容或播放音乐，适合展示紧凑型图标布局。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>QQ音乐是腾讯公司推出的网络音乐平台。</p>
           <p>拥有庞大的曲库资源，涵盖流行、古典、影视等多种类型。</p>
           <p>支持无损音质播放和跨设备同步收藏。</p>
+        icon: https://www.google.com/s2/favicons?domain=y.qq.com&sz=128
       - name: 酷狗音乐
         url: https://www.kugou.com/
         intro: 音乐播放与下载平台。
-        icon: https://www.google.com/s2/favicons?domain=www.kugou.com&sz=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=www.kugou.com&amp;sz=128" alt="酷狗音乐 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">酷狗音乐</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.kugou.com</span>
+            </div>
+          </div>
+          <p><strong>酷狗音乐</strong> 是「常用 / 视频/音乐」分组里的常用入口，主要用于音乐播放与下载平台。</p>
+          <ul>
+            <li><strong>适合场景：</strong>观看长视频、直播、综艺、影视内容或播放音乐，适合展示紧凑型图标布局。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>酷狗音乐是一款集音乐播放、下载和分享于一体的音乐软件。</p>
           <p>提供丰富的正版音乐资源，支持歌词显示和音效调节。</p>
           <p>用户可以在线听歌、下载歌曲到本地，并与其他用户交流。</p>
-
+        icon: https://www.google.com/s2/favicons?domain=www.kugou.com&sz=128
       - name: CCTV直播
         slug: cctv-live
         url: https://tv.cctv.com/live/index.shtml
         intro: 央视多频道在线直播与节目回看。
-        icon: https://www.google.com/s2/favicons?domain=tv.cctv.com&sz=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=tv.cctv.com&amp;sz=128" alt="CCTV直播 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">CCTV直播</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">tv.cctv.com</span>
+            </div>
+          </div>
+          <p><strong>CCTV直播</strong> 是「常用 / 视频/音乐」分组里的常用入口，主要用于央视多频道在线直播与节目回看。</p>
+          <ul>
+            <li><strong>适合场景：</strong>观看长视频、直播、综艺、影视内容或播放音乐，适合展示紧凑型图标布局。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>CCTV直播提供中央电视台多个频道的实时在线观看服务。</p>
           <p>用户可以收看新闻、财经、体育、综艺等各类电视节目。</p>
           <p>支持节目回看功能，方便错过直播的用户随时观看。</p>
-
+        icon: https://www.google.com/s2/favicons?domain=tv.cctv.com&sz=128
   - category: 常用
     name: 短视频
     links:
@@ -282,21 +803,50 @@ groups:
         slug: douyin
         url: https://www.douyin.com/
         intro: 短视频与直播平台，推荐信息流。
-        icon: https://www.google.com/s2/favicons?domain=www.douyin.com&sz=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=www.douyin.com&amp;sz=128" alt="抖音网页版 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">抖音网页版</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.douyin.com</span>
+            </div>
+          </div>
+          <p><strong>抖音网页版</strong> 是「常用 / 短视频」分组里的常用入口，主要用于短视频与直播平台，推荐信息流。</p>
+          <ul>
+            <li><strong>适合场景：</strong>浏览短视频、直播与推荐信息流，适合演示内容消费类入口。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>抖音网页版是字节跳动推出的短视频社交平台。</p>
           <p>用户可以浏览、点赞、评论和分享各种创意短视频。</p>
           <p>通过智能算法推荐个性化内容，支持直播互动功能。</p>
+        icon: https://www.google.com/s2/favicons?domain=www.douyin.com&sz=128
       - name: 快手网页版
         slug: kuaishou
         url: https://www.kuaishou.com/
         intro: 短视频社区与直播平台。
-        icon: https://www.google.com/s2/favicons?domain=www.kuaishou.com&sz=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=www.kuaishou.com&amp;sz=128" alt="快手网页版 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">快手网页版</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.kuaishou.com</span>
+            </div>
+          </div>
+          <p><strong>快手网页版</strong> 是「常用 / 短视频」分组里的常用入口，主要用于短视频社区与直播平台。</p>
+          <ul>
+            <li><strong>适合场景：</strong>浏览短视频、直播与推荐信息流，适合演示内容消费类入口。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>快手网页版是一个记录和分享生活的短视频社区。</p>
           <p>提供丰富多样的短视频内容，涵盖搞笑、美食、旅行等领域。</p>
           <p>支持创作者上传作品并与粉丝互动，打造个人影响力。</p>
-
+        icon: https://www.google.com/s2/favicons?domain=www.kuaishou.com&sz=128
   - category: 常用
     name: 社交/社区
     links:
@@ -304,49 +854,122 @@ groups:
         slug: weibo
         url: https://www.weibo.com/
         intro: 中文社交媒体与话题平台。
-        icon: https://cdn.simpleicons.org/sinaweibo?size=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/sinaweibo?size=128" alt="微博 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">微博</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.weibo.com</span>
+            </div>
+          </div>
+          <p><strong>微博</strong> 是「常用 / 社交/社区」分组里的常用入口，主要用于中文社交媒体与话题平台。</p>
+          <ul>
+            <li><strong>适合场景：</strong>关注话题、记录想法、查看评论与社区讨论，适合展示中文互联网常用社区。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>微博是一个基于用户关系的信息分享、传播以及获取的平台。</p>
           <p>用户可以发布140字（或更多）的短消息，实现即时分享。</p>
           <p>支持关注明星、大V和好友，参与热门话题讨论。</p>
+        icon: https://cdn.simpleicons.org/sinaweibo?size=128
       - name: 知乎
         slug: zhihu
         url: https://www.zhihu.com/explore
         intro: 问答社区，分享知识、经验与见解。
-        icon: https://cdn.simpleicons.org/zhihu?size=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/zhihu?size=128" alt="知乎 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">知乎</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.zhihu.com</span>
+            </div>
+          </div>
+          <p><strong>知乎</strong> 是「常用 / 社交/社区」分组里的常用入口，主要用于问答社区，分享知识、经验与见解。</p>
+          <ul>
+            <li><strong>适合场景：</strong>关注话题、记录想法、查看评论与社区讨论，适合展示中文互联网常用社区。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>知乎是一个真实网络问答社区，连接各行各业的用户。</p>
           <p>用户可以提出问题、分享见解，获得有深度的解答。</p>
           <p>通过高质量内容创作与专业讨论，构建可信的知识分享平台。</p>
+        icon: https://cdn.simpleicons.org/zhihu?size=128
       - name: 豆瓣
         slug: douban
         url: https://www.douban.com/
         intro: 书影音评分与评论社区。
-        icon: https://cdn.simpleicons.org/douban?size=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/douban?size=128" alt="豆瓣 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">豆瓣</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.douban.com</span>
+            </div>
+          </div>
+          <p><strong>豆瓣</strong> 是「常用 / 社交/社区」分组里的常用入口，主要用于书影音评分与评论社区。</p>
+          <ul>
+            <li><strong>适合场景：</strong>关注话题、记录想法、查看评论与社区讨论，适合展示中文互联网常用社区。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>豆瓣是一个提供书影音评分与评论的文化社区。</p>
           <p>用户可以记录和分享自己的观影、读书和听音乐体验。</p>
           <p>平台聚集了大量文艺爱好者，形成了独特的品味评价体系。</p>
+        icon: https://cdn.simpleicons.org/douban?size=128
       - name: 百度贴吧
         slug: tieba.baidu.com
         url: https://tieba.baidu.com/
         intro: 基于兴趣主题的社区论坛。
-        icon: https://cdn.simpleicons.org/baidu?size=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/baidu?size=128" alt="百度贴吧 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">百度贴吧</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">tieba.baidu.com</span>
+            </div>
+          </div>
+          <p><strong>百度贴吧</strong> 是「常用 / 社交/社区」分组里的常用入口，主要用于基于兴趣主题的社区论坛。</p>
+          <ul>
+            <li><strong>适合场景：</strong>关注话题、记录想法、查看评论与社区讨论，适合展示中文互联网常用社区。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>百度贴吧是全球最大的中文兴趣社区和话题讨论平台。</p>
           <p>用户可以根据兴趣爱好创建或加入不同的贴吧进行交流。</p>
           <p>涵盖娱乐、游戏、学习、生活等各个领域的主题讨论。</p>
+        icon: https://cdn.simpleicons.org/baidu?size=128
       - name: 简书
         slug: jianshu.com
         url: https://www.jianshu.com/
         intro: 写作与阅读社区，发布文章与专题。
-        icon: https://www.google.com/s2/favicons?domain=www.jianshu.com&sz=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=www.jianshu.com&amp;sz=128" alt="简书 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">简书</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.jianshu.com</span>
+            </div>
+          </div>
+          <p><strong>简书</strong> 是「常用 / 社交/社区」分组里的常用入口，主要用于写作与阅读社区，发布文章与专题。</p>
+          <ul>
+            <li><strong>适合场景：</strong>关注话题、记录想法、查看评论与社区讨论，适合展示中文互联网常用社区。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>简书是一个优质创作社区，鼓励作者创作和分享高质量内容。</p>
           <p>支持图文编辑、专题收录和读者互动，提升写作体验。</p>
           <p>通过专题运营和推荐机制，帮助创作者获得关注与成长。</p>
- 
-
+        icon: https://www.google.com/s2/favicons?domain=www.jianshu.com&sz=128
   - category: 常用
     name: 购物/生活
     links:
@@ -354,12 +977,26 @@ groups:
         slug: taobao
         url: https://www.taobao.com/
         intro: 综合电商平台，海量商品与店铺。
-        icon: https://cdn.simpleicons.org/taobao?size=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/taobao?size=128" alt="淘宝 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">淘宝</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.taobao.com</span>
+            </div>
+          </div>
+          <p><strong>淘宝</strong> 是「常用 / 购物/生活」分组里的常用入口，主要用于综合电商平台，海量商品与店铺。</p>
+          <ul>
+            <li><strong>适合场景：</strong>日常购物、生活服务和消费决策，适合补足生活类导航场景。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>淘宝网是中国深受欢迎的网购零售平台。</p>
           <p>拥有丰富的商品种类和活跃的卖家群体，提供便捷的购物体验。</p>
           <p>支持支付宝担保交易，保障买卖双方权益。</p>
-
+        icon: https://cdn.simpleicons.org/taobao?size=128
   - category: 常用
     name: 办公/效率
     links:
@@ -367,36 +1004,110 @@ groups:
         slug: filehelper.weixin.qq.com
         url: https://filehelper.weixin.qq.com/
         intro: 微信生态内文本与文件跨设备传输。
-        icon: https://cdn.simpleicons.org/wechat?size=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/wechat?size=128" alt="文件传输助手 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">文件传输助手</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">filehelper.weixin.qq.com</span>
+            </div>
+          </div>
+          <p><strong>文件传输助手</strong> 是「常用 / 办公/效率」分组里的常用入口，主要用于微信生态内文本与文件跨设备传输。</p>
+          <ul>
+            <li><strong>适合场景：</strong>文件传输、团队协作、内容发布、文档管理和日常办公效率提升。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>文件传输助手是微信官方提供的跨设备文件传输工具。</p>
           <p>用户可以在手机、电脑等不同设备间快速发送文件和文本。</p>
           <p>无需添加好友即可实现便捷的数据同步与备份。</p>
+        icon: https://cdn.simpleicons.org/wechat?size=128
       - name: 微信公众平台
         slug: mp.weixin.qq.com
         url: https://mp.weixin.qq.com/
         intro: 公众号内容发布与运营管理。
-        icon: https://cdn.simpleicons.org/wechat?size=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/wechat?size=128" alt="微信公众平台 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">微信公众平台</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">mp.weixin.qq.com</span>
+            </div>
+          </div>
+          <p><strong>微信公众平台</strong> 是「常用 / 办公/效率」分组里的常用入口，主要用于公众号内容发布与运营管理。</p>
+          <ul>
+            <li><strong>适合场景：</strong>文件传输、团队协作、内容发布、文档管理和日常办公效率提升。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>微信公众平台是腾讯公司为微信用户提供的内容创作与服务平台。</p>
           <p>支持个人和企业开设公众号，发布图文、音频和视频内容。</p>
           <p>提供数据分析、粉丝管理和消息互动等功能，助力品牌传播。</p>
+        icon: https://cdn.simpleicons.org/wechat?size=128
       - name: 企业微信
         url: https://work.weixin.qq.com/
         slug: work.weixin.qq.com
         intro: 企业沟通协作与办公。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/wechat?size=128" alt="企业微信 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">企业微信</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">work.weixin.qq.com</span>
+            </div>
+          </div>
+          <p><strong>企业微信</strong> 是「常用 / 办公/效率」分组里的常用入口，主要用于企业沟通协作与办公。</p>
+          <ul>
+            <li><strong>适合场景：</strong>文件传输、团队协作、内容发布、文档管理和日常办公效率提升。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
         icon: https://cdn.simpleicons.org/wechat?size=128
       - name: 看云
         slug: kancloud.cn
         url: https://www.kancloud.cn/invite?code=***
         intro: 在线文档托管与团队协作平台。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=www.kancloud.cn&amp;sz=128" alt="看云 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">看云</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.kancloud.cn</span>
+            </div>
+          </div>
+          <p><strong>看云</strong> 是「常用 / 办公/效率」分组里的常用入口，主要用于在线文档托管与团队协作平台。</p>
+          <ul>
+            <li><strong>适合场景：</strong>文件传输、团队协作、内容发布、文档管理和日常办公效率提升。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
         icon: https://www.google.com/s2/favicons?domain=www.kancloud.cn&sz=128
       - name: 打字鸭
         slug: daziya.com
         url: https://www.daziya.com/
         intro: 免费打字练习平台，盲打指法、拼音、英文、趣味游戏
-        icon: https://www.google.com/s2/favicons?domain=daziya.com&sz=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=daziya.com&amp;sz=128" alt="打字鸭 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">打字鸭</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.daziya.com</span>
+            </div>
+          </div>
+          <p><strong>打字鸭</strong> 是「常用 / 办公/效率」分组里的常用入口，主要用于免费打字练习平台，盲打指法、拼音、英文、趣味游戏。</p>
+          <ul>
+            <li><strong>适合场景：</strong>文件传输、团队协作、内容发布、文档管理和日常办公效率提升。</li>
+            <li><strong>使用建议：</strong>适合作为日常工作台入口；涉及登录、支付或个人数据时，先确认域名和 HTTPS 状态。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>打字鸭是一个免费在线打字练习平台，帮助用户快速掌握打字指法与盲打技巧，累计超过200万用户。</p>
           <p><strong>核心功能：</strong></p>
           <ul>
@@ -410,7 +1121,7 @@ groups:
             <li><strong>班级管理</strong>：为老师提供学生练习情况管理后台</li>
           </ul>
           <p>提供700+课程内容，满足多样化练习需求，适合个人学习与机构教学。</p>
-
+        icon: https://www.google.com/s2/favicons?domain=daziya.com&sz=128
   # 开发分类下的多个二级分组
   - category: 开发
     name: 文档/学习
@@ -420,6 +1131,21 @@ groups:
         slug: doc.rust-lang.org
         intro: Rust 官方文档
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/rust?size=128" alt="Rust Docs 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Rust Docs</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">doc.rust-lang.org</span>
+            </div>
+          </div>
+          <p><strong>Rust Docs</strong> 是「开发 / 文档/学习」分组里的常用入口，主要用于Rust 官方文档。</p>
+          <ul>
+            <li><strong>适合场景：</strong>阅读官方文档、查找开发资料、学习编程概念和解决技术问题。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>官方书籍《The Rust Programming Language》与标准库参考，含示例与最佳实践。</p>
         icon: https://cdn.simpleicons.org/rust?size=128
       # ----------------
@@ -428,6 +1154,21 @@ groups:
         slug: developer.mozilla.org
         intro: Web 开发文档
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/mdnwebdocs?size=128" alt="MDN Web Docs 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">MDN Web Docs</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">developer.mozilla.org</span>
+            </div>
+          </div>
+          <p><strong>MDN Web Docs</strong> 是「开发 / 文档/学习」分组里的常用入口，主要用于Web 开发文档。</p>
+          <ul>
+            <li><strong>适合场景：</strong>阅读官方文档、查找开发资料、学习编程概念和解决技术问题。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>权威 Web 文档，覆盖 HTML/CSS/JS、浏览器 API 与兼容性数据（BCD）。</p>
         icon: https://cdn.simpleicons.org/mdnwebdocs?size=128
       # ----------------
@@ -436,6 +1177,21 @@ groups:
         slug: stackoverflow.com
         intro: 开发问答
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/stackoverflow?size=128" alt="Stack Overflow 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Stack Overflow</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">stackoverflow.com</span>
+            </div>
+          </div>
+          <p><strong>Stack Overflow</strong> 是「开发 / 文档/学习」分组里的常用入口，主要用于开发问答。</p>
+          <ul>
+            <li><strong>适合场景：</strong>阅读官方文档、查找开发资料、学习编程概念和解决技术问题。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>开发者问答社区，可搜索常见报错与解决方案，参考高票答案与讨论。</p>
         icon: https://cdn.simpleicons.org/stackoverflow?size=128
       # ----------------
@@ -444,6 +1200,21 @@ groups:
         slug: geeksforgeeks.org
         intro: 计算机知识
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/geeksforgeeks?size=128" alt="GeeksforGeeks 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">GeeksforGeeks</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.geeksforgeeks.org</span>
+            </div>
+          </div>
+          <p><strong>GeeksforGeeks</strong> 是「开发 / 文档/学习」分组里的常用入口，主要用于计算机知识。</p>
+          <ul>
+            <li><strong>适合场景：</strong>阅读官方文档、查找开发资料、学习编程概念和解决技术问题。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>计算机基础与数据结构/算法教程，附题解与面试经验分享。</p>
         icon: https://cdn.simpleicons.org/geeksforgeeks?size=128
       # ----------------
@@ -452,6 +1223,21 @@ groups:
         slug: notion.so
         intro: AI工作空间
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/notion?size=128" alt="Notion 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Notion</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.notion.so</span>
+            </div>
+          </div>
+          <p><strong>Notion</strong> 是「开发 / 文档/学习」分组里的常用入口，主要用于AI工作空间。</p>
+          <ul>
+            <li><strong>适合场景：</strong>阅读官方文档、查找开发资料、学习编程概念和解决技术问题。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>一个AI工作空间，团队可以在这里找到每个答案，自动化繁忙工作，并完成项目。</p>
         icon: https://cdn.simpleicons.org/notion?size=128
 
@@ -462,15 +1248,45 @@ groups:
         url: https://github.com
         slug: github.com
         intro: 代码托管
-        icon: https://cdn.simpleicons.org/github?size=128
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/github?size=128" alt="GitHub 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">GitHub</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">github.com</span>
+            </div>
+          </div>
+          <p><strong>GitHub</strong> 是「开发 / 平台/仓库」分组里的常用入口，主要用于代码托管。</p>
+          <ul>
+            <li><strong>适合场景：</strong>托管代码、浏览开源项目、管理依赖包和协作开发流程。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>主流代码托管平台，提供 Issues、Pull Requests、Actions 与 Packages 等生态。</p>
+        icon: https://cdn.simpleicons.org/github?size=128
       # ----------------
       - name: GitLab
         url: https://gitlab.com
         slug: gitlab.com
         intro: 代码托管与 CI
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/gitlab?size=128" alt="GitLab 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">GitLab</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">gitlab.com</span>
+            </div>
+          </div>
+          <p><strong>GitLab</strong> 是「开发 / 平台/仓库」分组里的常用入口，主要用于代码托管与 CI。</p>
+          <ul>
+            <li><strong>适合场景：</strong>托管代码、浏览开源项目、管理依赖包和协作开发流程。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>集成代码托管与 CI/CD，支持 Pipeline、Issue Board 与容器注册表。</p>
         icon: https://cdn.simpleicons.org/gitlab?size=128
       # ----------------
@@ -479,6 +1295,21 @@ groups:
         slug: crates.io
         intro: Rust 包仓库
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=crates.io&amp;sz=128" alt="crates.io 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">crates.io</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">crates.io</span>
+            </div>
+          </div>
+          <p><strong>crates.io</strong> 是「开发 / 平台/仓库」分组里的常用入口，主要用于Rust 包仓库。</p>
+          <ul>
+            <li><strong>适合场景：</strong>托管代码、浏览开源项目、管理依赖包和协作开发流程。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>Rust 生态的官方包仓库，用于发布、检索与依赖管理。</p>
         icon: https://www.google.com/s2/favicons?domain=crates.io&sz=128
 
@@ -490,6 +1321,21 @@ groups:
         slug: regex101.com
         intro: 正则测试
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=regex101.com&amp;sz=128" alt="Regex101 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Regex101</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">regex101.com</span>
+            </div>
+          </div>
+          <p><strong>Regex101</strong> 是「开发 / 工具」分组里的常用入口，主要用于正则测试。</p>
+          <ul>
+            <li><strong>适合场景：</strong>格式化、压缩、调试、命名、截图等开发和内容处理中的高频小工具。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>在线正则表达式测试与解释器，支持 PCRE、ECMAScript、Python 等多种方言。</p>
         icon: https://www.google.com/s2/favicons?domain=regex101.com&sz=128
       - name: Codelf
@@ -498,6 +1344,21 @@ groups:
         icon: https://unbug.github.io/codelf/images/codelf_logo.f4ae25bd.png
         intro: 变量命名工具，帮助开发者查找变量名，通过搜索GitHub等开源平台源码提供符合驼峰命名法的命名建议，支持中文查询，并提供Atom、Sublime插件和Chrome应用
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://unbug.github.io/codelf/images/codelf_logo.f4ae25bd.png" alt="Codelf 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Codelf</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">github.com</span>
+            </div>
+          </div>
+          <p><strong>Codelf</strong> 是「开发 / 工具」分组里的常用入口，主要用于变量命名工具，帮助开发者查找变量名，通过搜索GitHub等开源平台源码提供符合驼峰命名法的命名建议，支持中文查询，并提供Atom、Sublime插件和Chrome应用。</p>
+          <ul>
+            <li><strong>适合场景：</strong>格式化、压缩、调试、命名、截图等开发和内容处理中的高频小工具。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>Codelf是一个变量命名工具，它通过搜索GitHub、GitLab、Bitbucket等开源平台的源代码，为开发者提供符合驼峰命名法的变量命名建议。</p>
           <p>主要功能包括：</p>
           <ul>
@@ -519,6 +1380,21 @@ groups:
         slug: jsonformatter.org
         intro: JSON 工具
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/json?size=128" alt="JSON Formatter 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">JSON Formatter</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">jsonformatter.org</span>
+            </div>
+          </div>
+          <p><strong>JSON Formatter</strong> 是「开发 / 工具」分组里的常用入口，主要用于JSON 工具。</p>
+          <ul>
+            <li><strong>适合场景：</strong>格式化、压缩、调试、命名、截图等开发和内容处理中的高频小工具。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>JSON 在线格式化与校验，支持压缩、树形浏览与拷贝分享。</p>
         icon: https://cdn.simpleicons.org/json?size=128
       # ----------------
@@ -527,6 +1403,21 @@ groups:
         slug: tinypng.com 
         intro: 图片压缩
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=tinypng.com&amp;sz=128" alt="TinyPNG 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">TinyPNG</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">tinypng.com</span>
+            </div>
+          </div>
+          <p><strong>TinyPNG</strong> 是「开发 / 工具」分组里的常用入口，主要用于图片压缩。</p>
+          <ul>
+            <li><strong>适合场景：</strong>格式化、压缩、调试、命名、截图等开发和内容处理中的高频小工具。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>智能压缩 PNG/JPG/WebP，显著降低体积同时尽量保持画质。</p>
         icon: https://www.google.com/s2/favicons?domain=tinypng.com&sz=128
       # ----------------
@@ -535,6 +1426,21 @@ groups:
         slug: codesandbox.io
         intro: 在线 IDE
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/codesandbox?size=128" alt="CodeSandbox 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">CodeSandbox</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">codesandbox.io</span>
+            </div>
+          </div>
+          <p><strong>CodeSandbox</strong> 是「开发 / 工具」分组里的常用入口，主要用于在线 IDE。</p>
+          <ul>
+            <li><strong>适合场景：</strong>格式化、压缩、调试、命名、截图等开发和内容处理中的高频小工具。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>云端在线 IDE，快速创建前端/全栈样例，便于协作与分享。</p>
         icon: https://cdn.simpleicons.org/codesandbox?size=128
       # ----------------
@@ -543,6 +1449,21 @@ groups:
         slug: jsdelivr.com
         intro: 前端 CDN
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/jsdelivr?size=128" alt="JSDelivr 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">JSDelivr</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.jsdelivr.com</span>
+            </div>
+          </div>
+          <p><strong>JSDelivr</strong> 是「开发 / 工具」分组里的常用入口，主要用于前端 CDN。</p>
+          <ul>
+            <li><strong>适合场景：</strong>格式化、压缩、调试、命名、截图等开发和内容处理中的高频小工具。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>免费公共 CDN，加速分发 npm/GitHub 资源，支持自定义版本与文件路径。</p>
         icon: https://cdn.simpleicons.org/jsdelivr?size=128
       # ----------------
@@ -551,14 +1472,43 @@ groups:
         slug: ogp.me
         intro: 开放图协议
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://ogp.me/logo.png" alt="OGP 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">OGP</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">ogp.me</span>
+            </div>
+          </div>
+          <p><strong>OGP</strong> 是「开发 / 工具」分组里的常用入口，主要用于开放图协议。</p>
+          <ul>
+            <li><strong>适合场景：</strong>格式化、压缩、调试、命名、截图等开发和内容处理中的高频小工具。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>开放图协议（OGP）用于在社交媒体上更好地分享网页内容。</p>
         icon: https://ogp.me/logo.png
       - name: CocoLoop Skill商店
         slug: hub.cocoloop.cn
         url: https://hub.cocoloop.cn/
         intro: 更安全更快的 AI Agent Skills 商店，支持 12,000+ Skills，涵盖 AI 搜索、Agent增强、自媒体创作等多个分类
-        icon: https://www.google.com/s2/favicons?domain=hub.cocoloop.cn&sz=64
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=hub.cocoloop.cn&amp;sz=64" alt="CocoLoop Skill商店 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">CocoLoop Skill商店</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">hub.cocoloop.cn</span>
+            </div>
+          </div>
+          <p><strong>CocoLoop Skill商店</strong> 是「开发 / 工具」分组里的常用入口，主要用于更安全更快的 AI Agent Skills 商店，支持 12,000+ Skills，涵盖 AI 搜索、Agent增强、自媒体创作等多个分类。</p>
+          <ul>
+            <li><strong>适合场景：</strong>格式化、压缩、调试、命名、截图等开发和内容处理中的高频小工具。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>CocoLoop Skill商店是一个更安全更快的 AI Agent Skills 平台，为 AI Agent 提供技能扩展市场。</p>
           <p><strong>平台数据：</strong></p>
           <ul>
@@ -581,12 +1531,28 @@ groups:
             <li>理财炒股、知识管理等</li>
           </ul>
           <p>国内镜像下载加速，人工精选 Top 50 榜单。</p>
+        icon: https://www.google.com/s2/favicons?domain=hub.cocoloop.cn&sz=64
       # ----------------
       - name: Snipaste
         url: https://www.snipaste.com/
         slug: snipaste.com
         intro: 截图与贴图工具
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.snipaste.com/img/logo.svg" alt="Snipaste 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Snipaste</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.snipaste.com</span>
+            </div>
+          </div>
+          <p><strong>Snipaste</strong> 是「开发 / 工具」分组里的常用入口，主要用于截图与贴图工具。</p>
+          <ul>
+            <li><strong>适合场景：</strong>格式化、压缩、调试、命名、截图等开发和内容处理中的高频小工具。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>简单但强大的截图工具，允许将截图固定回屏幕上。支持自动检测UI元素、像素级控制、颜色拾取器等功能。</p>
           <p>适合程序员、设计师或长时间在电脑前工作的用户提高工作效率。</p>
         icon:  https://www.snipaste.com/img/logo.svg
@@ -598,12 +1564,42 @@ groups:
         url: https://developer.aliyun.com/mirror/
         slug: developer.aliyun.com
         intro: 常用开源软件镜像与加速下载。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/alibabacloud?size=128" alt="阿里巴巴开源镜像站 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">阿里巴巴开源镜像站</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">developer.aliyun.com</span>
+            </div>
+          </div>
+          <p><strong>阿里巴巴开源镜像站</strong> 是「开发 / 镜像/下载」分组里的常用入口，主要用于常用开源软件镜像与加速下载。</p>
+          <ul>
+            <li><strong>适合场景：</strong>下载软件、加速开源依赖获取，并作为开发环境初始化时的辅助入口。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
         icon: https://cdn.simpleicons.org/alibabacloud?size=128
 
       - name: 腾讯软件中心
         url: https://pc.qq.com/category/c0.html 
         slug: pc.qq.com
         intro: 腾讯官方软件下载与更新。
+        details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=pc.qq.com&amp;sz=128" alt="腾讯软件中心 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">腾讯软件中心</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">pc.qq.com</span>
+            </div>
+          </div>
+          <p><strong>腾讯软件中心</strong> 是「开发 / 镜像/下载」分组里的常用入口，主要用于腾讯官方软件下载与更新。</p>
+          <ul>
+            <li><strong>适合场景：</strong>下载软件、加速开源依赖获取，并作为开发环境初始化时的辅助入口。</li>
+            <li><strong>使用建议：</strong>建议先收藏官方文档或仓库地址；遇到登录、下载或命令行内容时，优先核对域名和版本。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
         icon: https://www.google.com/s2/favicons?domain=pc.qq.com&sz=128
 
   - category: 学习
@@ -614,6 +1610,21 @@ groups:
         slug: leetcode.com
         intro: 算法练习
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/leetcode?size=128" alt="LeetCode 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">LeetCode</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">leetcode.com</span>
+            </div>
+          </div>
+          <p><strong>LeetCode</strong> 是「学习 / 刷题/练习」分组里的常用入口，主要用于算法练习。</p>
+          <ul>
+            <li><strong>适合场景：</strong>刷算法题、练习编程思维、准备面试或课程作业。</li>
+            <li><strong>使用建议：</strong>建议把课程、练习和参考资料配合使用；学习过程中可用搜索框快速回到同类资源。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>在线刷题平台，覆盖数据结构与算法，提供竞赛、讨论与题解。</p>
         icon: https://cdn.simpleicons.org/leetcode?size=128
 
@@ -626,6 +1637,21 @@ groups:
         slug: coursera.org
         intro: 在线课程
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/coursera?size=128" alt="Coursera 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Coursera</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.coursera.org</span>
+            </div>
+          </div>
+          <p><strong>Coursera</strong> 是「学习 / 课程/书籍」分组里的常用入口，主要用于在线课程。</p>
+          <ul>
+            <li><strong>适合场景：</strong>系统学习课程、查找教材资源、安排自学路线和练习材料。</li>
+            <li><strong>使用建议：</strong>建议把课程、练习和参考资料配合使用；学习过程中可用搜索框快速回到同类资源。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>全球高校与机构提供的在线课程与专精证书，涵盖计算机、商业与人文等。</p>
         icon: https://cdn.simpleicons.org/coursera?size=128
       # ----------------
@@ -634,6 +1660,21 @@ groups:
         slug: udemy.com
         intro: 付费课程
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/udemy?size=128" alt="Udemy 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Udemy</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.udemy.com</span>
+            </div>
+          </div>
+          <p><strong>Udemy</strong> 是「学习 / 课程/书籍」分组里的常用入口，主要用于付费课程。</p>
+          <ul>
+            <li><strong>适合场景：</strong>系统学习课程、查找教材资源、安排自学路线和练习材料。</li>
+            <li><strong>使用建议：</strong>建议把课程、练习和参考资料配合使用；学习过程中可用搜索框快速回到同类资源。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>面向实用技能的在线课程平台，内容多样，常有折扣促销。</p>
         icon: https://cdn.simpleicons.org/udemy?size=128
       # ----------------
@@ -642,6 +1683,21 @@ groups:
         slug: khanacademy.org
         intro: 免费课程
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://cdn.simpleicons.org/khanacademy?size=128" alt="可汗学院 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">可汗学院</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">www.khanacademy.org</span>
+            </div>
+          </div>
+          <p><strong>可汗学院</strong> 是「学习 / 课程/书籍」分组里的常用入口，主要用于免费课程。</p>
+          <ul>
+            <li><strong>适合场景：</strong>系统学习课程、查找教材资源、安排自学路线和练习材料。</li>
+            <li><strong>使用建议：</strong>建议把课程、练习和参考资料配合使用；学习过程中可用搜索框快速回到同类资源。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p>非营利教育平台，提供数学、科学与计算机等免费课程与练习。</p>
         icon: https://cdn.simpleicons.org/khanacademy?size=128
       # ----------------
@@ -650,6 +1706,21 @@ groups:
         slug: ycl-python-level4
         intro: Python 四级互动教学课件，支持投屏、练习与进度导出
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=ycl-python-level4.anycps.com&amp;sz=128" alt="YCL Python 四级互动课件 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">YCL Python 四级互动课件</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">ycl-python-level4.anycps.com</span>
+            </div>
+          </div>
+          <p><strong>YCL Python 四级互动课件</strong> 是「学习 / 课程/书籍」分组里的常用入口，主要用于Python 四级互动教学课件，支持投屏、练习与进度导出。</p>
+          <ul>
+            <li><strong>适合场景：</strong>系统学习课程、查找教材资源、安排自学路线和练习材料。</li>
+            <li><strong>使用建议：</strong>建议把课程、练习和参考资料配合使用；学习过程中可用搜索框快速回到同类资源。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p><strong>YCL Python 四级互动教学课件</strong>是一套面向 Python 入门到进阶的互动式教学课件，可投屏展示、支持课堂练习，并可导出完整学习进度 JSON 文件。</p>
           <p><strong>课程内容：</strong></p>
           <ul>
@@ -677,6 +1748,21 @@ groups:
         icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
         intro: 上海交大出品的大模型编程实践教程，30k+ Stars，涵盖微调部署、数学推理、GUI Agent、大模型对齐等核心主题
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="Dive into LLM（动手学大模型） 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Dive into LLM（动手学大模型）</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">github.com</span>
+            </div>
+          </div>
+          <p><strong>Dive into LLM（动手学大模型）</strong> 是「开源项目 / 技术工具」分组里的常用入口，主要用于上海交大出品的大模型编程实践教程，30k+ Stars，涵盖微调部署、数学推理、GUI Agent、大模型对齐等核心主题。</p>
+          <ul>
+            <li><strong>适合场景：</strong>了解开源项目、学习技术实践、跟进大模型和开发工具生态。</li>
+            <li><strong>使用建议：</strong>建议先查看 README、Star、Issue 和最近提交，再决定是否深入使用或二次开发。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p><strong>《动手学大模型（Dive into LLMs）》</strong>系列编程实践教程，由上海交通大学《自然语言处理前沿技术》（NIS8021）和《人工智能安全技术》（NIS3353）课程讲义拓展而来，旨在提供大模型相关的入门编程参考。</p>
           <p><strong>核心内容：</strong></p>
           <ul>
@@ -692,6 +1778,21 @@ groups:
         icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
         intro: Datawhale出品的开源大模型本地部署与微调教程，30k+ Stars，1381次提交，支持国内外主流开源LLM
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="Self-LLM（开源大模型食用指南） 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Self-LLM（开源大模型食用指南）</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">github.com</span>
+            </div>
+          </div>
+          <p><strong>Self-LLM（开源大模型食用指南）</strong> 是「开源项目 / 技术工具」分组里的常用入口，主要用于Datawhale出品的开源大模型本地部署与微调教程，30k+ Stars，1381次提交，支持国内外主流开源LLM。</p>
+          <ul>
+            <li><strong>适合场景：</strong>了解开源项目、学习技术实践、跟进大模型和开发工具生态。</li>
+            <li><strong>使用建议：</strong>建议先查看 README、Star、Issue 和最近提交，再决定是否深入使用或二次开发。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p><strong>《开源大模型食用指南》（Self-LLM）</strong>是 Datawhale 团队专为中文开发者打造的开源大模型本地部署与微调教程，针对中国开发者环境优化。</p>
           <p><strong>核心内容：</strong></p>
           <ul>
@@ -708,6 +1809,21 @@ groups:
         icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
         intro: Datawhale进阶项目，30k+ Stars，从NLP基础理论到亲手实现LLaMA2，系统构建大模型知识体系
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="Happy-LLM（从零开始构建大模型） 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Happy-LLM（从零开始构建大模型）</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">github.com</span>
+            </div>
+          </div>
+          <p><strong>Happy-LLM（从零开始构建大模型）</strong> 是「开源项目 / 技术工具」分组里的常用入口，主要用于Datawhale进阶项目，30k+ Stars，从NLP基础理论到亲手实现LLaMA2，系统构建大模型知识体系。</p>
+          <ul>
+            <li><strong>适合场景：</strong>了解开源项目、学习技术实践、跟进大模型和开发工具生态。</li>
+            <li><strong>使用建议：</strong>建议先查看 README、Star、Issue 和最近提交，再决定是否深入使用或二次开发。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p><strong>Happy-LLM</strong>是 Datawhale 的进阶级开源项目，专注于从零开始系统学习大模型的原理与实现，被誉为"从NLP基础到手搓LLaMA2"的进阶路径。</p>
           <p><strong>核心内容：</strong></p>
           <ul>
@@ -724,6 +1840,21 @@ groups:
         icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
         intro: Datawhale小白教程，13k+ Stars，基于大模型开发上层应用，涵盖RAG、Agent开发等实用场景
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="LLM-Universe（动手学大模型应用开发） 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">LLM-Universe（动手学大模型应用开发）</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">github.com</span>
+            </div>
+          </div>
+          <p><strong>LLM-Universe（动手学大模型应用开发）</strong> 是「开源项目 / 技术工具」分组里的常用入口，主要用于Datawhale小白教程，13k+ Stars，基于大模型开发上层应用，涵盖RAG、Agent开发等实用场景。</p>
+          <ul>
+            <li><strong>适合场景：</strong>了解开源项目、学习技术实践、跟进大模型和开发工具生态。</li>
+            <li><strong>使用建议：</strong>建议先查看 README、Star、Issue 和最近提交，再决定是否深入使用或二次开发。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p><strong>LLM Universe（动手学大模型应用开发）</strong>是 Datawhale 面向入门开发者的大模型应用开发教程，以"会写代码就能上手"为设计理念。</p>
           <p><strong>核心内容：</strong></p>
           <ul>
@@ -740,6 +1871,21 @@ groups:
         icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
         intro: Datawhale智能体教程，50k+ Stars，覆盖Agent基础到多智能体应用，含SoftwareDevHelper等实战项目
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="Hello-Agents（从零开始构建智能体） 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Hello-Agents（从零开始构建智能体）</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">github.com</span>
+            </div>
+          </div>
+          <p><strong>Hello-Agents（从零开始构建智能体）</strong> 是「开源项目 / 技术工具」分组里的常用入口，主要用于Datawhale智能体教程，50k+ Stars，覆盖Agent基础到多智能体应用，含SoftwareDevHelper等实战项目。</p>
+          <ul>
+            <li><strong>适合场景：</strong>了解开源项目、学习技术实践、跟进大模型和开发工具生态。</li>
+            <li><strong>使用建议：</strong>建议先查看 README、Star、Issue 和最近提交，再决定是否深入使用或二次开发。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p><strong>Hello-Agents（从零开始构建智能体）</strong>是 Datawhale 的智能体（Agent）入门与实践教程，系统讲解从Agent基础到多智能体协作的核心知识。</p>
           <p><strong>核心内容：</strong></p>
           <ul>
@@ -756,6 +1902,21 @@ groups:
         icon: https://www.google.com/s2/favicons?domain=github.com&sz=64
         intro: Claude Code的clean-room重写版，史上最快突破100k Stars的开源项目，Rust编写，集成oh-my-codex
         details: |
+          <!-- dove-detail:enhanced -->
+          <div style="display:flex;align-items:center;gap:14px;margin:0 0 16px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:12px;background:rgba(127,127,127,.08);">
+            <img src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="Claw-code（Claude Code开源实现） 图标" loading="lazy" style="width:64px;height:64px;object-fit:contain;border-radius:16px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);">
+            <div style="min-width:0;">
+              <strong style="display:block;font-size:18px;line-height:1.3;">Claw-code（Claude Code开源实现）</strong>
+              <span style="display:block;margin-top:4px;color:var(--muted);word-break:break-all;">github.com</span>
+            </div>
+          </div>
+          <p><strong>Claw-code（Claude Code开源实现）</strong> 是「开源项目 / 技术工具」分组里的常用入口，主要用于Claude Code的clean-room重写版，史上最快突破100k Stars的开源项目，Rust编写，集成oh-my-codex。</p>
+          <ul>
+            <li><strong>适合场景：</strong>了解开源项目、学习技术实践、跟进大模型和开发工具生态。</li>
+            <li><strong>使用建议：</strong>建议先查看 README、Star、Issue 和最近提交，再决定是否深入使用或二次开发。</li>
+            <li><strong>演示亮点：</strong>可展示 Dove 的分组导航、图标卡片、搜索过滤、详情页富文本和外链跳转能力。</li>
+          </ul>
+          <h3>补充说明</h3>
           <p><strong>Claw-code</strong>是 Claude Code 的 clean-room 重写实现，由 ultraworkers 团队开发，是 GitHub 历史上最快突破 100k Stars 的开源项目之一。</p>
           <p><strong>核心特点：</strong></p>
           <ul>
