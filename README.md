@@ -205,6 +205,7 @@ Wrangler 版本：工作流使用 `cloudflare/wrangler-action@v3`。
   - `links[]`：`name`、`url`、`icon`、`intro`、`details`、（可选）`intranet` 等
   - `links[].embed`：设为 `true` 时，导航页点击该链接会用站内浮窗 iframe 打开，而不是新开标签页；浮窗支持关闭、拖动，并带右上角新标签页打开按钮。
   - `links[].embed_url`：可选，指定浮窗 iframe 实际加载地址；未设置时使用 `url`（内网页使用 `intranet` 回退后的地址）。
+  - `links[].embed_width` / `links[].embed_height`：可选，默认主题读取的链接级自定义字段，用于设置浮窗初始宽高；数字按 px 处理，也可写 `960px`、`80vw`、`70vh` 等 CSS 长度。
   - 自定义字段：`site`、`groups[]`、`links[]` 中未被 dove 内置字段使用的参数会透传给主题模板。例如链接写 `badge: 常用` 后，主题中可用 `{{ l.badge }}` 读取；站点级字段可用 `{{ site.hero_image }}` 或 `{{ site_extra.hero_image }}` 读取。
 
 提示：
