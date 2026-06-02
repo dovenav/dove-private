@@ -203,10 +203,14 @@ Wrangler 版本：工作流使用 `cloudflare/wrangler-action@v3`。
   - `name`：分组标题（内容区）
   - `display`：分组显示风格 `standard|compact|list|text`
   - `links[]`：`name`、`url`、`icon`、`intro`、`details`、（可选）`intranet` 等
+  - `links[].embed`：设为 `true` 时，导航页点击该链接会用站内浮窗 iframe 打开，而不是新开标签页；浮窗支持关闭、拖动，并带右上角新标签页打开按钮。
+  - `links[].embed_url`：可选，指定浮窗 iframe 实际加载地址；未设置时使用 `url`（内网页使用 `intranet` 回退后的地址）。
+  - 自定义字段：`site`、`groups[]`、`links[]` 中未被 dove 内置字段使用的参数会透传给主题模板。例如链接写 `badge: 常用` 后，主题中可用 `{{ l.badge }}` 读取；站点级字段可用 `{{ site.hero_image }}` 或 `{{ site_extra.hero_image }}` 读取。
 
 提示：
 
 - 内/外网两套页面：外网页面使用 `url`，内网页面优先使用 `intranet`（没有则回退 `url`）。
+- 部分网站会通过 `X-Frame-Options`/CSP 禁止 iframe 嵌入；这类站点即使配置了 `embed: true`，也需要使用浮窗右上角按钮在新标签页打开。
 - 中间页（外网详情）默认开启，可用参数或环境变量禁用：
   - `cargo run -- build --generate-intermediate-page false`
   - `DOVE_GENERATE_INTERMEDIATE_PAGE=false cargo run -- build`
